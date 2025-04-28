@@ -5,7 +5,7 @@ import { PrimeReactProvider } from "primereact/api";
 import { Geist, Geist_Mono } from "next/font/google";
 import "primereact/resources/themes/lara-light-blue/theme.css";
 import "primeicons/primeicons.css";
-import "./globals.css";
+import "@/app/globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
