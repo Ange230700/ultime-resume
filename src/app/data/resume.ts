@@ -1,0 +1,72 @@
+// src\app\data\resume.ts
+
+import {
+  socialsList,
+  hardSkills,
+  softSkills,
+  experiencesList,
+  educationList,
+  hobbiesList,
+  SocialLink,
+  Experience,
+  Education,
+} from "./lists";
+
+export interface ResumeHeader {
+  name: string;
+  title: string;
+  details: string;
+}
+
+export interface ResumeSkills {
+  section_title: string;
+  hard_skills_title: string;
+  hard_skills: string[];
+  softSkillsTitle: string;
+  softSkills: string[];
+}
+
+export interface ResumeSectionList<T> {
+  section_title: string;
+  list: T[];
+}
+
+export interface ResumeData {
+  header: ResumeHeader;
+  contact: { socials: SocialLink[] };
+  skills: ResumeSkills;
+  experiences: ResumeSectionList<Experience>;
+  education: ResumeSectionList<Education>;
+  hobbies: ResumeSectionList<string>;
+}
+
+const resumeData: ResumeData = {
+  header: {
+    name: "Ange KOUAKOU",
+    title: "Développeur Fullstack",
+    details:
+      "Recherche un contrat d'apprentissage de <em><strong>12 à 36 mois</strong></em> : <em>4 jours entreprise - 1 jour en formation</em> à partir de <strong>Juin 2025</strong>.",
+  },
+  contact: { socials: socialsList },
+  skills: {
+    section_title: "Compétences",
+    hard_skills_title: "Compétences techniques",
+    hard_skills: hardSkills,
+    softSkillsTitle: "Soft Skills",
+    softSkills,
+  },
+  experiences: {
+    section_title: "Projets",
+    list: experiencesList,
+  },
+  education: {
+    section_title: "Formations",
+    list: educationList,
+  },
+  hobbies: {
+    section_title: "Hobbies",
+    list: hobbiesList,
+  },
+};
+
+export default resumeData;
