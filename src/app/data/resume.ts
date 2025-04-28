@@ -10,7 +10,7 @@ import {
   SocialLink,
   Experience,
   Education,
-} from "./lists";
+} from "@/app/data/lists";
 
 export interface ResumeHeader {
   name: string;
