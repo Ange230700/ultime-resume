@@ -1,7 +1,5 @@
 // src\app\components\Hobbies.tsx
 
-import React from "react";
-
 interface HobbiesProps {
   sectionTitle: string;
   list: string[];

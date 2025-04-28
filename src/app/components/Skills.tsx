@@ -1,7 +1,5 @@
 // src\app\components\Skills.tsx
 
-import React from "react";
-
 interface SkillsProps {
   sectionTitle: string;
   hardSkillsTitle: string;

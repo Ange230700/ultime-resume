@@ -1,6 +1,5 @@
 // src\app\components\Header.tsx
 
-import React from "react";
 import { SocialLink } from "@/app/data/lists";
 
 interface HeaderProps {
