@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} flex h-full w-full flex-col overflow-hidden antialiased`}
       >
         <PrimeReactProvider>{children}</PrimeReactProvider>
       </body>
