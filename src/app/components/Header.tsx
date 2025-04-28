@@ -31,7 +31,7 @@ export default function Header({
               href={social.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-600 italic underline hover:text-gray-800"
+              className="text-gray-600 italic underline decoration-dotted hover:text-gray-800"
               dangerouslySetInnerHTML={{ __html: social.text }}
             />
           </li>
