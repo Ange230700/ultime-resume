@@ -1,6 +1,5 @@
 // src\app\components\Education.tsx
 
-import React from "react";
 import { Education } from "@/app/data/lists";
 
 interface EducationProps {

@@ -1,6 +1,5 @@
 // src\app\components\Experiences.tsx
 
-import React from "react";
 import { Experience } from "@/app/data/lists";
 
 interface ExperiencesProps {
