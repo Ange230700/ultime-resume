@@ -6,18 +6,3 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
-
-@page {
-  size: 794px 1123px;
-  margin: 38px;
-}
-
-@media print {
-  html,
-  body {
-    margin: 0;
-    padding: 0;
-    width: 794px;
-    height: 1123px;
-  }
-}
