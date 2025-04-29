@@ -1,5 +1,8 @@
 // src\app\components\Experiences.tsx
 
+import ReactMarkdown from "react-markdown";
+import rehypeSanitize from "rehype-sanitize";
+import remarkGfm from "remark-gfm";
 import { Experience } from "@/app/data/lists";
 
 interface ExperiencesProps {
@@ -18,18 +21,23 @@ export default function Experiences({
       </h3>
       <div className="space-y-6">
         {list.map((exp) => (
-          <div key={exp.project_description} className="space-y-2">
-            <h4
-              className="font-medium text-gray-800"
-              dangerouslySetInnerHTML={{
-                __html: `› ${exp.project_description}`,
-              }}
-            />
-            <ul className="list-inside list-disc space-y-1 pl-5 text-gray-700">
-              {exp.tasks.map((task) => (
-                <li key={task} dangerouslySetInnerHTML={{ __html: task }} />
-              ))}
-            </ul>
+          <div key={exp.experience_id} className="space-y-2">
+            <div className="font-medium text-gray-800">
+              <ReactMarkdown
+                remarkPlugins={[remarkGfm]}
+                rehypePlugins={[rehypeSanitize]}
+              >
+                {exp.project_description}
+              </ReactMarkdown>
+            </div>
+            <div className="list-inside list-disc space-y-1 pl-5 text-gray-700">
+              <ReactMarkdown
+                remarkPlugins={[remarkGfm]}
+                rehypePlugins={[rehypeSanitize]}
+              >
+                {exp.tasks.join("\n")}
+              </ReactMarkdown>
+            </div>
           </div>
         ))}
       </div>

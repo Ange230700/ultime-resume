@@ -70,20 +70,23 @@ export const projectsLinks: Record<string, string> = {
 };
 
 export interface Experience {
+  experience_id: string;
   project_description: string;
   tasks: string[];
 }
 
 export const experiencesList: Experience[] = [
   {
-    project_description: `Développement d'une plateforme OTT: <u><em><a href="${projectsLinks.ott}" target="_blank">voir le site</a></em></u>`,
+    experience_id: "ott",
+    project_description: `Développement d'une plateforme OTT: _[voir le site](${projectsLinks.ott})_`,
     tasks: [
-      "Équipe de 3 personnes <strong>|</strong> 4 semaines <strong>|</strong> Next.js, TailwindCSS, React, PrimeReact",
-      "Authentification avec token et gestion des droits d'utilisateurs",
-      "Hébergement de vidéos YouTube",
+      "* Équipe de 3 personnes | 4 semaines | Next.js, TailwindCSS, React, PrimeReact",
+      "* Authentification avec token et gestion des droits d’utilisateurs",
+      "* Hébergement de vidéos YouTube",
     ],
   },
   {
+    experience_id: "back_office",
     project_description: `Développement d'un back-office pour une association de collectes de déchets: <u><em><a href="${projectsLinks.back_office}" target="_blank">voir le site</a></em></u>`,
     tasks: [
       "Équipe de 3 personnes <strong>|</strong> 2 semaines <strong>|</strong> PHP, Twig, Symfony",
@@ -92,6 +95,7 @@ export const experiencesList: Experience[] = [
     ],
   },
   {
+    experience_id: "daf",
     project_description: `Réalisation d'un site affichant les enquêtes en cours du FBI: <u><em><a href="${projectsLinks.daf}" target="_blank">voir le site</a></em></u>`,
     tasks: [
       "Équipe de 3 personnes <strong>|</strong> 2 semaines <strong>|</strong> HTML, CSS, JavaScript",
@@ -100,6 +104,7 @@ export const experiencesList: Experience[] = [
     ],
   },
   {
+    experience_id: "furniture",
     project_description: `Développement d'une plateforme de vente de meubles (mise en production en cours): <u><em><a href="${projectsLinks.furniture}" target="_blank">voir le code source sur GitHub</a></em></u>`,
     tasks: [
       "Équipe de 6 personnes <strong>|</strong> 2 semaines <strong>|</strong> SpringBoot, Angular/Typescript, TailwindCSS, PrimeNg",
