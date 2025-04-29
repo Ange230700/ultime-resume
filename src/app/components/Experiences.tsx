@@ -16,13 +16,13 @@ export default function Experiences({
 }: Readonly<ExperiencesProps>) {
   return (
     <section className="space-y-4">
-      <h3 className="text-xl font-semibold text-blue-800 underline">
+      <h3 className="mb-[25px] text-7xl font-semibold text-blue-800 underline">
         {sectionTitle}
       </h3>
       <div className="space-y-6">
         {list.map((exp) => (
-          <div key={exp.experience_id} className="space-y-2">
-            <div className="font-medium text-gray-800">
+          <div key={exp.experience_id} className="mb-[50px] space-y-2">
+            <div className="mb-[25px] font-medium text-gray-800">
               <ReactMarkdown
                 remarkPlugins={[remarkGfm]}
                 rehypePlugins={[rehypeSanitize]}
@@ -30,7 +30,7 @@ export default function Experiences({
                 {exp.project_description}
               </ReactMarkdown>
             </div>
-            <div className="list-inside list-disc space-y-1 pl-5 text-gray-700">
+            <div className="list-inside space-y-1 pl-5 text-5xl leading-16 text-gray-700">
               <ReactMarkdown
                 remarkPlugins={[remarkGfm]}
                 rehypePlugins={[rehypeSanitize]}
