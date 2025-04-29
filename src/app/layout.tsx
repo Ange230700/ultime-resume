@@ -28,9 +28,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="h-[3508px] max-w-[2408px] overflow-hidden">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} flex h-full w-full flex-col overflow-hidden antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} flex h-full w-full flex-col overflow-hidden text-6xl antialiased`}
       >
         <PrimeReactProvider>{children}</PrimeReactProvider>
       </body>

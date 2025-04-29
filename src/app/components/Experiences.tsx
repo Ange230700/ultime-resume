@@ -16,7 +16,7 @@ export default function Experiences({
 }: Readonly<ExperiencesProps>) {
   return (
     <section className="space-y-4">
-      <h3 className="text-xl font-semibold text-blue-800 underline">
+      <h3 className="text-7xl font-semibold text-blue-800 underline">
         {sectionTitle}
       </h3>
       <div className="space-y-6">

@@ -8,8 +8,8 @@
 }
 
 @page {
-  size: A4;
-  margin: 1cm;
+  size: 794px 1123px;
+  margin: 38px;
 }
 
 @media print {
@@ -17,7 +17,7 @@
   body {
     margin: 0;
     padding: 0;
-    width: 210mm;
-    height: 297mm;
+    width: 794px;
+    height: 1123px;
   }
 }
