@@ -65,12 +65,12 @@ export const softSkills: string[] = [
 ];
 
 export const projectsLinks: Record<string, string> = {
-  daf: "https://ongoing-fbi-investigations.vercel.app/",
-  quiz: "https://quizz-two-delta.vercel.app/",
-  morse_translator: "https://04-can-you-speak-morse.vercel.app/",
-  mastermind: "https://08-mastermind.vercel.app/",
-  back_office: "http://vps-6604485f.vps.ovh.net/home",
-  ott: "https://supreme-ott.vercel.app/",
+  daf: "https://github.com/Ange230700/ongoing-fbi-investigations",
+  quiz: "https://github.com/Ange230700/quizz",
+  morse_translator: "https://github.com/Ange230700/04_can_you_speak_morse",
+  mastermind: "https://github.com/Ange230700/08_mastermind",
+  back_office: "https://github.com/Ange230700/back-office-app",
+  ott: "https://github.com/Ange230700/supreme_ott",
   furniture: "https://github.com/Ange230700/luxury_camps",
 };
 
@@ -83,7 +83,7 @@ export interface Experience {
 export const experiencesList: Experience[] = [
   {
     experience_id: "ott",
-    project_description: `Développement d'une plateforme OTT: _[voir le code source sur GitHub](${projectsLinks.ott})_`,
+    project_description: `Plateforme de service de vidéos: _[voir code source ici](${projectsLinks.ott})_`,
     tasks: [
       "- Équipe de 3 personnes | 4 semaines | Next.js, TailwindCSS, React, PrimeReact",
       "- Authentification avec token et gestion des droits d’utilisateurs",
@@ -92,7 +92,7 @@ export const experiencesList: Experience[] = [
   },
   {
     experience_id: "back_office",
-    project_description: `Développement d'un back-office pour une association de collectes de déchets: _[voir le code source sur GitHub](${projectsLinks.back_office})_`,
+    project_description: `Back-office pour une association de collectes de déchets: _[voir code source ici](${projectsLinks.back_office})_`,
     tasks: [
       "- Équipe de 3 personnes | 2 semaines | PHP, Twig, Symfony",
       "- Authentification basique et gestion des droits d’utilisateurs",
@@ -101,7 +101,7 @@ export const experiencesList: Experience[] = [
   },
   {
     experience_id: "daf",
-    project_description: `Réalisation d'un site affichant les enquêtes en cours du FBI: _[voir le code source sur GitHub](${projectsLinks.daf})_`,
+    project_description: `Interfaces des enquêtes en cours du FBI: _[voir code source ici](${projectsLinks.daf})_`,
     tasks: [
       "- Équipe de 3 personnes | 2 semaines | HTML, CSS, JavaScript",
       "- Récupération des données via l'API du FBI",
@@ -110,7 +110,7 @@ export const experiencesList: Experience[] = [
   },
   {
     experience_id: "furniture",
-    project_description: `Développement d'une plateforme de vente de meubles (mise en production en cours): _[voir le code source sur GitHub](${projectsLinks.furniture})_`,
+    project_description: `Plateforme de vente de meubles: _[voir code source ici](${projectsLinks.furniture})_`,
     tasks: [
       "- Équipe de 6 personnes | 2 semaines | SpringBoot, Angular/Typescript, TailwindCSS, PrimeNg",
       "- Modélisation UML",
