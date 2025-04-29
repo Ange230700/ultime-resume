@@ -13,7 +13,7 @@ import { dirname, join } from "path";
   });
 
   const page = await browser.newPage();
-  await page.goto("https://definite-resume-client.vercel.app/", {
+  await page.goto("https://ultime-resume.vercel.app/", {
     waitUntil: "networkidle0",
   });
 
@@ -22,7 +22,7 @@ import { dirname, join } from "path";
     path: pdfPath,
     format: "A4",
     printBackground: true,
-    scale: 0.3125,
+    scale: 0.75,
   });
 
   await browser.close();

@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky"
+    "prepare": "husky",
+    "generate-pdf": "tsx src/generate-pdf.ts"
   },
   "dependencies": {
     "next": "15.3.1",
@@ -35,6 +36,7 @@
     "prettier": "^3.5.3",
     "prettier-plugin-tailwindcss": "^0.6.11",
     "tailwindcss": "^4",
+    "tsx": "^4.19.4",
     "typescript": "^5"
   },
   "lint-staged": {
