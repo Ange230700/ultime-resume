@@ -7,6 +7,7 @@ import {
   experiencesList,
   educationList,
   // hobbiesList,
+  HardSkill,
   SocialLink,
   Experience,
   Education,
@@ -21,7 +22,7 @@ export interface ResumeHeader {
 export interface ResumeSkills {
   section_title: string;
   hard_skills_title: string;
-  hard_skills: string[];
+  hard_skills: HardSkill[];
   softSkillsTitle: string;
   softSkills: string[];
 }
