@@ -39,16 +39,21 @@ export const socialsList: SocialLink[] = [
   },
 ];
 
-export const hardSkills: string[] = [
-  "JavaScript",
-  "React",
-  "Express",
-  "PHP",
-  "Symphony",
-  "MySQL",
-  "Java",
-  "Angular",
-  "SpringBoot",
+export interface HardSkill {
+  label: string;
+  icon: string;
+}
+
+export const hardSkills: HardSkill[] = [
+  { label: "JavaScript", icon: "pi pi-apple" },
+  { label: "React", icon: "pi pi-react" },
+  { label: "Express", icon: "pi pi-node" },
+  { label: "PHP", icon: "pi pi-code" },
+  { label: "Symfony", icon: "pi pi-code" },
+  { label: "MySQL", icon: "pi pi-database" },
+  { label: "Java", icon: "pi pi-java" },
+  { label: "Angular", icon: "pi pi-angular" },
+  { label: "SpringBoot", icon: "pi pi-leaf" },
 ];
 
 export const softSkills: string[] = [
