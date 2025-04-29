@@ -5,10 +5,10 @@ import Header from "@/app/components/Header";
 import Skills from "@/app/components/Skills";
 import Experiences from "@/app/components/Experiences";
 import EducationSection from "@/app/components/Education";
-import Hobbies from "@/app/components/Hobbies";
+// import Hobbies from "@/app/components/Hobbies";
 
 export default function Home() {
-  const { header, contact, skills, experiences, education, hobbies } =
+  const { header, contact, skills, experiences, education /*, hobbies*/ } =
     resumeData;
 
   return (
@@ -38,7 +38,7 @@ export default function Home() {
         list={education.list}
       />
 
-      <Hobbies sectionTitle={hobbies.section_title} list={hobbies.list} />
+      {/* <Hobbies sectionTitle={hobbies.section_title} list={hobbies.list} /> */}
     </main>
   );
 }

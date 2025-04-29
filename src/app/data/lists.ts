@@ -17,11 +17,11 @@ export const socialsList: SocialLink[] = [
     text: "GitHub",
     id: "github-link",
   },
-  {
-    link: "https://the-real-portfolio-client.vercel.app/",
-    text: "Portfolio",
-    id: "portfolio-link",
-  },
+  // {
+  //   link: "https://the-real-portfolio-client.vercel.app/",
+  //   text: "Portfolio",
+  //   id: "portfolio-link",
+  // },
   {
     link: "mailto:kouakouangeericstephane@gmail.com",
     text: "kouakouangeericstephane@gmail.com",
@@ -78,38 +78,38 @@ export interface Experience {
 export const experiencesList: Experience[] = [
   {
     experience_id: "ott",
-    project_description: `Développement d'une plateforme OTT: _[voir le site](${projectsLinks.ott})_`,
+    project_description: `Développement d'une plateforme OTT: _[voir le code source sur GitHub](${projectsLinks.ott})_`,
     tasks: [
-      "* Équipe de 3 personnes | 4 semaines | Next.js, TailwindCSS, React, PrimeReact",
-      "* Authentification avec token et gestion des droits d’utilisateurs",
-      "* Hébergement de vidéos YouTube",
+      "- Équipe de 3 personnes | 4 semaines | Next.js, TailwindCSS, React, PrimeReact",
+      "- Authentification avec token et gestion des droits d’utilisateurs",
+      "- Hébergement de vidéos YouTube",
     ],
   },
   {
     experience_id: "back_office",
-    project_description: `Développement d'un back-office pour une association de collectes de déchets: _[voir le site](${projectsLinks.back_office})_`,
+    project_description: `Développement d'un back-office pour une association de collectes de déchets: _[voir le code source sur GitHub](${projectsLinks.back_office})_`,
     tasks: [
-      "* Équipe de 3 personnes | 2 semaines | PHP, Twig, Symfony",
-      "* Authentification basique et gestion des droits d’utilisateurs",
-      "* Opérations CRUD",
+      "- Équipe de 3 personnes | 2 semaines | PHP, Twig, Symfony",
+      "- Authentification basique et gestion des droits d’utilisateurs",
+      "- Opérations CRUD",
     ],
   },
   {
     experience_id: "daf",
-    project_description: `Réalisation d'un site affichant les enquêtes en cours du FBI: _[voir le site](${projectsLinks.daf})_`,
+    project_description: `Réalisation d'un site affichant les enquêtes en cours du FBI: _[voir le code source sur GitHub](${projectsLinks.daf})_`,
     tasks: [
-      "* Équipe de 3 personnes | 2 semaines | HTML, CSS, JavaScript",
-      "* Récupération des données via l'API du FBI",
-      "* Dessin de graphiques avec Chart.js",
+      "- Équipe de 3 personnes | 2 semaines | HTML, CSS, JavaScript",
+      "- Récupération des données via l'API du FBI",
+      "- Dessin de graphiques avec Chart.js",
     ],
   },
   {
     experience_id: "furniture",
-    project_description: `Développement d'une plateforme de vente de meubles (mise en production en cours): <u><em><a href="${projectsLinks.furniture}" target="_blank">voir le code source sur GitHub</a></em></u>`,
+    project_description: `Développement d'une plateforme de vente de meubles (mise en production en cours): _[voir le code source sur GitHub](${projectsLinks.furniture})_`,
     tasks: [
-      "* Équipe de 6 personnes | 2 semaines | SpringBoot, Angular/Typescript, TailwindCSS, PrimeNg",
-      "* Modélisation UML",
-      "* Programmation orientée objet",
+      "- Équipe de 6 personnes | 2 semaines | SpringBoot, Angular/Typescript, TailwindCSS, PrimeNg",
+      "- Modélisation UML",
+      "- Programmation orientée objet",
     ],
   },
 ];

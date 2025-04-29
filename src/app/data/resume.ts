@@ -6,7 +6,7 @@ import {
   softSkills,
   experiencesList,
   educationList,
-  hobbiesList,
+  // hobbiesList,
   SocialLink,
   Experience,
   Education,
@@ -37,7 +37,7 @@ export interface ResumeData {
   skills: ResumeSkills;
   experiences: ResumeSectionList<Experience>;
   education: ResumeSectionList<Education>;
-  hobbies: ResumeSectionList<string>;
+  // hobbies: ResumeSectionList<string>;
 }
 
 const resumeData: ResumeData = {
@@ -63,10 +63,10 @@ const resumeData: ResumeData = {
     section_title: "Formations",
     list: educationList,
   },
-  hobbies: {
-    section_title: "Hobbies",
-    list: hobbiesList,
-  },
+  // hobbies: {
+  //   section_title: "Hobbies",
+  //   list: hobbiesList,
+  // },
 };
 
 export default resumeData;
