@@ -1,5 +1,8 @@
 // src\app\components\Header.tsx
 
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
+import rehypeSanitize from "rehype-sanitize";
 import { SocialLink } from "@/app/data/lists";
 
 interface HeaderProps {
@@ -19,10 +22,14 @@ export default function Header({
     <section className="space-y-2 text-center">
       <h1 className="text-4xl font-bold text-blue-800 uppercase">{name}</h1>
       <h2 className="text-2xl font-medium">{title}</h2>
-      <p
-        className="text-base text-gray-700"
-        dangerouslySetInnerHTML={{ __html: details }}
-      />
+      <div className="prose prose-sm mx-auto text-gray-700">
+        <ReactMarkdown
+          remarkPlugins={[remarkGfm]}
+          rehypePlugins={[rehypeSanitize]}
+        >
+          {details}
+        </ReactMarkdown>
+      </div>
       <ul className="mt-4 flex justify-center space-x-6">
         {socials.map((social) => (
           <li key={social.id}>
