@@ -12,7 +12,16 @@ export default function Home() {
     resumeData;
 
   return (
-    <main className="mx-auto max-w-3xl space-y-12 px-4 py-8 font-sans">
+    <main
+      className={[
+        "mx-auto max-w-3xl space-y-12 px-4 py-8 font-sans",
+        // print: full-bleed to match A4 above
+        "print:mx-0 print:max-w-none",
+        "print:h-[297mm] print:w-[210mm] print:overflow-visible",
+        // optional: add print-only padding
+        "print:px-[1cm] print:pt-[1cm]",
+      ].join(" ")}
+    >
       <Header
         name={header.name}
         title={header.title}

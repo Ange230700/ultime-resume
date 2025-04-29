@@ -6,3 +6,18 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
+
+@page {
+  size: A4;
+  margin: 1cm;
+}
+
+@media print {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    width: 210mm;
+    height: 297mm;
+  }
+}
