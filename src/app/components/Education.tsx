@@ -19,7 +19,7 @@ export default function EducationSection({
       <div className="space-y-2">
         {list.map((edu) => (
           <div
-            key={`${edu.formation_title}-${edu.school}`}
+            key={edu.formation_id}
             className="flex items-center justify-between border-b pb-2"
           >
             <div>
