@@ -87,34 +87,35 @@ export const experiencesList: Experience[] = [
   },
   {
     experience_id: "back_office",
-    project_description: `Développement d'un back-office pour une association de collectes de déchets: <u><em><a href="${projectsLinks.back_office}" target="_blank">voir le site</a></em></u>`,
+    project_description: `Développement d'un back-office pour une association de collectes de déchets: _[voir le site](${projectsLinks.back_office})_`,
     tasks: [
-      "Équipe de 3 personnes <strong>|</strong> 2 semaines <strong>|</strong> PHP, Twig, Symfony",
-      "Authentification basique et gestion des droits d'utilisateurs",
-      "Opérations CRUD",
+      "* Équipe de 3 personnes | 2 semaines | PHP, Twig, Symfony",
+      "* Authentification basique et gestion des droits d’utilisateurs",
+      "* Opérations CRUD",
     ],
   },
   {
     experience_id: "daf",
-    project_description: `Réalisation d'un site affichant les enquêtes en cours du FBI: <u><em><a href="${projectsLinks.daf}" target="_blank">voir le site</a></em></u>`,
+    project_description: `Réalisation d'un site affichant les enquêtes en cours du FBI: _[voir le site](${projectsLinks.daf})_`,
     tasks: [
-      "Équipe de 3 personnes <strong>|</strong> 2 semaines <strong>|</strong> HTML, CSS, JavaScript",
-      "Récupération des données via l'<strong>API</strong> du FBI",
-      "Dessin de graphiques avec <strong>Chart.js</strong>",
+      "* Équipe de 3 personnes | 2 semaines | HTML, CSS, JavaScript",
+      "* Récupération des données via l'API du FBI",
+      "* Dessin de graphiques avec Chart.js",
     ],
   },
   {
     experience_id: "furniture",
     project_description: `Développement d'une plateforme de vente de meubles (mise en production en cours): <u><em><a href="${projectsLinks.furniture}" target="_blank">voir le code source sur GitHub</a></em></u>`,
     tasks: [
-      "Équipe de 6 personnes <strong>|</strong> 2 semaines <strong>|</strong> SpringBoot, Angular/Typescript, TailwindCSS, PrimeNg",
-      "Modélisation UML",
-      "Programmation orientée objet",
+      "* Équipe de 6 personnes | 2 semaines | SpringBoot, Angular/Typescript, TailwindCSS, PrimeNg",
+      "* Modélisation UML",
+      "* Programmation orientée objet",
     ],
   },
 ];
 
 export interface Education {
+  formation_id: number;
   formation_title: string;
   school: string;
   formation_span: string;
@@ -122,36 +123,43 @@ export interface Education {
 
 export const educationList: Education[] = [
   {
+    formation_id: 7,
     formation_title: "Formation Développeur•se Web et Mobile",
     school: "ADA Tech School",
     formation_span: "Depuis 10/2024",
   },
   {
+    formation_id: 6,
     formation_title: "Bootcamp Développement Web",
     school: "Wild Code School",
     formation_span: "10/2023 - 02/2024",
   },
   {
+    formation_id: 5,
     formation_title: "Bachelor informatique",
     school: "Ynov Campus de Nantes",
     formation_span: "09/2022 - 05/2023",
   },
   {
+    formation_id: 4,
     formation_title: "Prépa informatique intégrée",
     school: "CESI Toulouse",
     formation_span: "09/2021 - 05/2022",
   },
   {
+    formation_id: 3,
     formation_title: "Formation ingénieur électronique embarqué",
     school: "CESI Toulouse",
     formation_span: "09/2020 - 05/2021",
   },
   {
+    formation_id: 2,
     formation_title: "Prépa technologique intégrée",
     school: "CESI Saint-Nazaire",
     formation_span: "09/2019 - 05/2020",
   },
   {
+    formation_id: 1,
     formation_title: "Cycle Préparatoire Scientifique",
     school: "LFBP Abidjan, Côte d'Ivoire",
     formation_span: "09/2017 - 07/2019",
