@@ -2,6 +2,29 @@
 
 import { Chip } from "primereact/chip";
 import type { HardSkill } from "@/app/data/lists";
+import {
+  FaJs,
+  FaPhp,
+  FaReact,
+  FaNodeJs,
+  FaJava,
+  FaAngular,
+  FaDatabase,
+  FaCode,
+  FaSymfony,
+} from "react-icons/fa";
+
+const iconMap: Record<string, React.ReactNode> = {
+  JavaScript: <FaJs />,
+  React: <FaReact />,
+  Express: <FaNodeJs />,
+  PHP: <FaPhp />,
+  Symfony: <FaSymfony />,
+  MySQL: <FaDatabase />,
+  Java: <FaJava />,
+  Angular: <FaAngular />,
+  SpringBoot: <FaCode />,
+};
 
 interface SkillsProps {
   sectionTitle: string;
@@ -28,10 +51,11 @@ export default function Skills({
           <h4 className="mb-2 font-medium">{hardSkillsTitle}</h4>
           <div className="flex flex-wrap gap-2">
             {hardSkills.map((skill) => {
+              const Icon = iconMap[skill.label] ?? <FaCode />;
               const content = (
                 <>
                   <span className="bg-primary border-circle w-2rem h-2rem align-items-center justify-content-center flex">
-                    <i className={skill.icon} />
+                    {Icon}
                   </span>
                   <span className="ml-2 font-medium">{skill.label}</span>
                 </>
