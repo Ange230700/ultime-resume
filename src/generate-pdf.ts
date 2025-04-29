@@ -22,7 +22,7 @@ import { dirname, join } from "path";
     path: pdfPath,
     format: "A4",
     printBackground: true,
-    scale: 0.75,
+    scale: 0.3125,
   });
 
   await browser.close();

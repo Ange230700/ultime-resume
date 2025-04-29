@@ -20,8 +20,10 @@ export default function Header({
 }: Readonly<HeaderProps>) {
   return (
     <section className="space-y-2 text-center">
-      <h1 className="text-9xl font-bold text-blue-800 uppercase">{name}</h1>
-      <h2 className="text-7xl font-medium">{title}</h2>
+      <h1 className="mb-[25px] text-9xl font-bold text-blue-800 uppercase">
+        {name}
+      </h1>
+      <h2 className="mb-[25px] text-7xl font-medium">{title}</h2>
       <div className="prose prose-sm mx-auto text-gray-700">
         <ReactMarkdown
           remarkPlugins={[remarkGfm]}

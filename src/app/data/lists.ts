@@ -34,7 +34,7 @@ export const socialsList: SocialLink[] = [
   },
   {
     link: "/",
-    text: "Nantes",
+    text: "France",
     id: "location",
   },
 ];
@@ -153,7 +153,7 @@ export const educationList: Education[] = [
   },
   {
     formation_id: 3,
-    formation_title: "Formation ingénieur électronique embarqué",
+    formation_title: "Formation électronique embarqué",
     school: "CESI Toulouse",
     formation_span: "09/2020 - 05/2021",
   },
