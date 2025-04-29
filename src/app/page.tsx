@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <main
       className={[
-        "flex flex-1 flex-col justify-around overflow-hidden px-[150px]",
+        "flex flex-1 flex-col justify-around overflow-hidden px-[100px]",
       ].join(" ")}
     >
       <Header
