@@ -45,15 +45,17 @@ export interface HardSkill {
 }
 
 export const hardSkills: HardSkill[] = [
-  { label: "JavaScript", icon: "pi pi-apple" },
-  { label: "React", icon: "pi pi-react" },
-  { label: "Express", icon: "pi pi-node" },
-  { label: "PHP", icon: "pi pi-code" },
-  { label: "Symfony", icon: "pi pi-code" },
-  { label: "MySQL", icon: "pi pi-database" },
-  { label: "Java", icon: "pi pi-java" },
-  { label: "Angular", icon: "pi pi-angular" },
-  { label: "SpringBoot", icon: "pi pi-leaf" },
+  { label: "TypeScript", icon: "pi pi-code" },
+  { label: "Next.js", icon: "pi pi-code" },
+  // { label: "JavaScript", icon: "pi pi-code" },
+  { label: "React", icon: "pi pi-code" },
+  { label: "Express", icon: "pi pi-code" },
+  // { label: "PHP", icon: "pi pi-code" },
+  // { label: "Symfony", icon: "pi pi-code" },
+  { label: "MySQL", icon: "pi pi-code" },
+  // { label: "Java", icon: "pi pi-code" },
+  { label: "Angular", icon: "pi pi-code" },
+  { label: "SpringBoot", icon: "pi pi-code" },
 ];
 
 export const softSkills: string[] = [
@@ -91,12 +93,12 @@ export const experiencesList: Experience[] = [
     ],
   },
   {
-    experience_id: "back_office",
-    project_description: `Back-office pour une association de collectes de déchets: _[voir code source ici](${projectsLinks.back_office})_`,
+    experience_id: "furniture",
+    project_description: `Plateforme de vente de meubles: _[voir code source ici](${projectsLinks.furniture})_`,
     tasks: [
-      "- Équipe de 3 personnes | 2 semaines | PHP, Twig, Symfony",
-      "- Authentification basique et gestion des droits d’utilisateurs",
-      "- Opérations CRUD",
+      "- Équipe de 6 personnes | 2 semaines | SpringBoot, Angular/Typescript, TailwindCSS, PrimeNg",
+      "- Modélisation UML",
+      "- Programmation orientée objet",
     ],
   },
   {
@@ -108,15 +110,15 @@ export const experiencesList: Experience[] = [
       "- Dessin de graphiques avec Chart.js",
     ],
   },
-  {
-    experience_id: "furniture",
-    project_description: `Plateforme de vente de meubles: _[voir code source ici](${projectsLinks.furniture})_`,
-    tasks: [
-      "- Équipe de 6 personnes | 2 semaines | SpringBoot, Angular/Typescript, TailwindCSS, PrimeNg",
-      "- Modélisation UML",
-      "- Programmation orientée objet",
-    ],
-  },
+  // {
+  //   experience_id: "back_office",
+  //   project_description: `Back-office pour une association de collectes de déchets: _[voir code source ici](${projectsLinks.back_office})_`,
+  //   tasks: [
+  //     "- Équipe de 3 personnes | 2 semaines | PHP, Twig, Symfony",
+  //     "- Authentification basique et gestion des droits d’utilisateurs",
+  //     "- Opérations CRUD",
+  //   ],
+  // },
 ];
 
 export interface Education {
