@@ -2,6 +2,8 @@
 
 import { Chip } from "primereact/chip";
 import type { HardSkill } from "@/app/data/lists";
+import { SiTypescript, SiSpringboot } from "react-icons/si";
+import { RiNextjsFill } from "react-icons/ri";
 import {
   FaJs,
   FaPhp,
@@ -15,6 +17,8 @@ import {
 } from "react-icons/fa";
 
 const iconMap: Record<string, React.ReactNode> = {
+  TypeScript: <SiTypescript />,
+  "Next.js": <RiNextjsFill />,
   JavaScript: <FaJs />,
   React: <FaReact />,
   Express: <FaNodeJs />,
@@ -23,7 +27,7 @@ const iconMap: Record<string, React.ReactNode> = {
   MySQL: <FaDatabase />,
   Java: <FaJava />,
   Angular: <FaAngular />,
-  SpringBoot: <FaCode />,
+  SpringBoot: <SiSpringboot />,
 };
 
 interface SkillsProps {
