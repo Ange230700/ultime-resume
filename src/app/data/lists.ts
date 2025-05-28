@@ -17,11 +17,11 @@ export const socialsList: SocialLink[] = [
     text: "GitHub",
     id: "github-link",
   },
-  // {
-  //   link: "https://the-real-portfolio-client.vercel.app/",
-  //   text: "Portfolio",
-  //   id: "portfolio-link",
-  // },
+  {
+    link: "https://ultime-portfolio.vercel.app/",
+    text: "Portfolio",
+    id: "portfolio-link",
+  },
   {
     link: "mailto:kouakouangeericstephane@gmail.com",
     text: "kouakouangeericstephane@gmail.com",
