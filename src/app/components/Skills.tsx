@@ -2,7 +2,13 @@
 
 import { Chip } from "primereact/chip";
 import type { HardSkill } from "@/app/data/lists";
-import { SiTypescript, SiSpringboot } from "react-icons/si";
+import {
+  SiTypescript,
+  // SiSpringboot,
+  SiNestjs,
+  SiNuxtdotjs,
+  SiPrisma,
+} from "react-icons/si";
 import { RiNextjsFill } from "react-icons/ri";
 import {
   FaJs,
@@ -13,7 +19,8 @@ import {
   FaAngular,
   FaDatabase,
   FaCode,
-  FaSymfony,
+  // FaSymfony,
+  FaVuejs,
 } from "react-icons/fa";
 
 const iconMap: Record<string, React.ReactNode> = {
@@ -23,11 +30,15 @@ const iconMap: Record<string, React.ReactNode> = {
   React: <FaReact />,
   Express: <FaNodeJs />,
   PHP: <FaPhp />,
-  Symfony: <FaSymfony />,
+  // Symfony: <FaSymfony />,
   MySQL: <FaDatabase />,
   Java: <FaJava />,
   Angular: <FaAngular />,
-  SpringBoot: <SiSpringboot />,
+  // SpringBoot: <SiSpringboot />,
+  NestJS: <SiNestjs />,
+  "Nuxt.js": <SiNuxtdotjs />,
+  Vue: <FaVuejs />,
+  Prisma: <SiPrisma />,
 };
 
 interface SkillsProps {

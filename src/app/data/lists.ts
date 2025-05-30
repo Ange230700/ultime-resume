@@ -46,16 +46,20 @@ export interface HardSkill {
 
 export const hardSkills: HardSkill[] = [
   { label: "TypeScript", icon: "pi pi-code" },
-  { label: "Next.js", icon: "pi pi-code" },
-  // { label: "JavaScript", icon: "pi pi-code" },
   { label: "React", icon: "pi pi-code" },
+  { label: "Next.js", icon: "pi pi-code" },
+  { label: "Angular", icon: "pi pi-code" },
+  { label: "Vue", icon: "pi pi-code" },
+  { label: "Nuxt.js", icon: "pi pi-code" },
   { label: "Express", icon: "pi pi-code" },
+  { label: "NestJS", icon: "pi pi-code" },
+  { label: "Prisma", icon: "pi pi-code" },
+  { label: "MySQL", icon: "pi pi-code" },
+  // { label: "JavaScript", icon: "pi pi-code" },
   // { label: "PHP", icon: "pi pi-code" },
   // { label: "Symfony", icon: "pi pi-code" },
-  { label: "MySQL", icon: "pi pi-code" },
   // { label: "Java", icon: "pi pi-code" },
-  { label: "Angular", icon: "pi pi-code" },
-  { label: "SpringBoot", icon: "pi pi-code" },
+  // { label: "SpringBoot", icon: "pi pi-code" },
 ];
 
 export const softSkills: string[] = [
@@ -67,12 +71,12 @@ export const softSkills: string[] = [
 ];
 
 export const projectsLinks: Record<string, string> = {
-  daf: "https://github.com/Ange230700/ongoing-fbi-investigations",
-  quiz: "https://github.com/Ange230700/quizz",
+  daf: "https://ultime-daf.vercel.app/",
+  quiz: "https://void-quiz.vercel.app/",
   morse_translator: "https://github.com/Ange230700/04_can_you_speak_morse",
   mastermind: "https://github.com/Ange230700/08_mastermind",
   back_office: "https://github.com/Ange230700/back-office-app",
-  ott: "https://github.com/Ange230700/supreme_ott",
+  ott: "https://ultime-streamia.vercel.app/",
   furniture: "https://github.com/Ange230700/luxury_camps",
 };
 
@@ -85,31 +89,40 @@ export interface Experience {
 export const experiencesList: Experience[] = [
   {
     experience_id: "ott",
-    project_description: `Plateforme de service de vidéos: _[voir code source ici](${projectsLinks.ott})_`,
+    project_description: `Plateforme de service de vidéos: _[Streamia](${projectsLinks.ott})_`,
     tasks: [
-      "- Équipe de 3 personnes | 4 semaines | Next.js, TailwindCSS, React, PrimeReact",
+      "- Projet personnel | Next.js, TailwindCSS, React, PrimeReact, Prisma, MySQL",
       "- Authentification avec token et gestion des droits d’utilisateurs",
-      "- Hébergement de vidéos YouTube",
-    ],
-  },
-  {
-    experience_id: "furniture",
-    project_description: `Plateforme de vente de meubles: _[voir code source ici](${projectsLinks.furniture})_`,
-    tasks: [
-      "- Équipe de 6 personnes | 2 semaines | SpringBoot, Angular/Typescript, TailwindCSS, PrimeNg",
-      "- Modélisation UML",
-      "- Programmation orientée objet",
+      "- Manipulation de données média",
     ],
   },
   {
     experience_id: "daf",
-    project_description: `Interfaces des enquêtes en cours du FBI: _[voir code source ici](${projectsLinks.daf})_`,
+    project_description: `Interfaces des enquêtes en cours du FBI: _[DAF](${projectsLinks.daf})_`,
     tasks: [
-      "- Équipe de 3 personnes | 2 semaines | HTML, CSS, JavaScript",
+      "- Équipe de 3 personnes | React, PrimeReact, TailwindCSS, Chart.js",
       "- Récupération des données via l'API du FBI",
-      "- Dessin de graphiques avec Chart.js",
+      "- Data visualisation avec Chart.js",
     ],
   },
+  {
+    experience_id: "quiz",
+    project_description: `Interfaces des enquêtes en cours du FBI: _[Void Quiz](${projectsLinks.quiz})_`,
+    tasks: [
+      "- Équipe de 3 personnes | Angular, PrimeNg, TailwindCSS",
+      "- Formulaire progressif",
+      "- Rapports d'état via notifications et messages",
+    ],
+  },
+  // {
+  //   experience_id: "furniture",
+  //   project_description: `Plateforme de vente de meubles: _[voir code source ici](${projectsLinks.furniture})_`,
+  //   tasks: [
+  //     "- Équipe de 6 personnes | 2 semaines | SpringBoot, Angular/Typescript, TailwindCSS, PrimeNg",
+  //     "- Modélisation UML",
+  //     "- Programmation orientée objet",
+  //   ],
+  // },
   // {
   //   experience_id: "back_office",
   //   project_description: `Back-office pour une association de collectes de déchets: _[voir code source ici](${projectsLinks.back_office})_`,
