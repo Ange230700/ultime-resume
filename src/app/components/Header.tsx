@@ -32,7 +32,7 @@ export default function Header({
           {details}
         </ReactMarkdown>
       </div>
-      <ul className="mt-4 grid grid-cols-3 justify-center gap-6">
+      <ul className="mt-16 grid grid-cols-3 justify-center gap-16">
         {socials.map((social) => (
           <li key={social.id} className="justify-self-center">
             <a

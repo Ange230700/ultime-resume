@@ -85,13 +85,22 @@ export default function Skills({
             })}
           </div>
         </div>
-        <div>
-          <h4 className="mb-[50px] font-medium">{softSkillsTitle}</h4>
-          <div className="flex flex-wrap gap-8">
-            {softSkills.map((label) => (
-              <Chip key={label} label={label} className="px-4 py-2 text-5xl" />
-            ))}
+        <div className="flex flex-col justify-between">
+          <div>
+            <h4 className="mb-[50px] font-medium">{softSkillsTitle}</h4>
+            <div className="flex flex-wrap gap-8">
+              {softSkills.map((label) => (
+                <Chip
+                  key={label}
+                  label={label}
+                  className="px-4 py-2 text-5xl"
+                />
+              ))}
+            </div>
           </div>
+          <p>
+            Maîtrise de l&apos;anglais: <strong>Niveau B2</strong>
+          </p>
         </div>
       </div>
     </section>
