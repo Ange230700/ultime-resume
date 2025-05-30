@@ -47,7 +47,7 @@ export default function Skills({
 }: Readonly<SkillsProps>) {
   return (
     <section className="space-y-4">
-      <h3 className="mb-[25px] text-7xl font-semibold text-blue-800 underline">
+      <h3 className="mb-[25px] text-7xl font-semibold text-[var(--highlight-text-color)] underline">
         {sectionTitle}
       </h3>
       <div className="grid grid-cols-1 gap-8 md:grid-cols-2">

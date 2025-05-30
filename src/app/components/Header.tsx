@@ -20,11 +20,11 @@ export default function Header({
 }: Readonly<HeaderProps>) {
   return (
     <section className="space-y-2 text-center">
-      <h1 className="mb-[25px] text-9xl font-bold text-blue-800 uppercase">
+      <h1 className="mb-[25px] text-9xl font-bold text-[var(--primary-color)] uppercase">
         {name}
       </h1>
       <h2 className="mb-[25px] text-7xl font-medium">{title}</h2>
-      <div className="prose prose-sm mx-auto text-gray-700">
+      <div className="prose prose-sm mx-auto text-[var(--text-color)]">
         <ReactMarkdown
           remarkPlugins={[remarkGfm]}
           rehypePlugins={[rehypeSanitize]}
@@ -39,7 +39,7 @@ export default function Header({
               href={social.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-600 italic underline decoration-dotted hover:text-gray-800"
+              className="italic underline decoration-dotted hover:text-[var(--highlight-text-color)]"
               dangerouslySetInnerHTML={{ __html: social.text }}
             />
           </li>

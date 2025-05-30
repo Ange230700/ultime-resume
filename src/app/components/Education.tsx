@@ -13,7 +13,7 @@ export default function EducationSection({
 }: Readonly<EducationProps>) {
   return (
     <section className="space-y-4">
-      <h3 className="mb-[25px] text-7xl font-semibold text-blue-800 underline">
+      <h3 className="mb-[25px] text-7xl font-semibold text-[var(--highlight-text-color)] underline">
         {sectionTitle}
       </h3>
       <div className="space-y-2">
@@ -29,7 +29,7 @@ export default function EducationSection({
               </p>
               <strong className="font-semibold">{edu.school}</strong>
             </div>
-            <em className="text-gray-600">{edu.formation_span}</em>
+            <em className="text-[var(--text-color)]">{edu.formation_span}</em>
           </div>
         ))}
       </div>
