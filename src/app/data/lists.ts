@@ -98,7 +98,7 @@ export const experiencesList: Experience[] = [
     experience_id: "ott",
     project_description: `Plateforme de service de vidéos: _[Streamia](${projectsLinks.ott})_`,
     tasks: [
-      "- Projet personnel | Next.js, TailwindCSS, React, PrimeReact, Prisma, MySQL",
+      "- Projet personnel | TypeScript, Next.js, TailwindCSS, React, PrimeReact, Prisma, MySQL",
       "- Authentification avec token et gestion des droits d’utilisateurs",
       "- Manipulation de données média",
     ],
@@ -107,16 +107,16 @@ export const experiencesList: Experience[] = [
     experience_id: "daf",
     project_description: `Interfaces des enquêtes en cours du FBI: _[DAF](${projectsLinks.daf})_`,
     tasks: [
-      "- Équipe de 3 personnes | React, PrimeReact, TailwindCSS, Chart.js",
+      "- Équipe de 3 personnes | TypeScript, React, PrimeReact, TailwindCSS, Chart.js",
       "- Récupération des données via l'API du FBI",
       "- Data visualisation avec Chart.js",
     ],
   },
   {
     experience_id: "quiz",
-    project_description: `Interfaces des enquêtes en cours du FBI: _[Void Quiz](${projectsLinks.quiz})_`,
+    project_description: `Quiz multi-thèmes: _[Void Trivia](${projectsLinks.quiz})_`,
     tasks: [
-      "- Équipe de 3 personnes | Angular, PrimeNg, TailwindCSS",
+      "- Équipe de 3 personnes | TypeScript, Angular, PrimeNg, TailwindCSS",
       "- Formulaire progressif",
       "- Rapports d'état via notifications et messages",
     ],
