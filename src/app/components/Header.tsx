@@ -32,9 +32,9 @@ export default function Header({
           {details}
         </ReactMarkdown>
       </div>
-      <ul className="mt-4 flex justify-center space-x-6">
+      <ul className="mt-4 grid grid-cols-3 justify-center gap-6">
         {socials.map((social) => (
-          <li key={social.id}>
+          <li key={social.id} className="justify-self-center">
             <a
               href={social.link}
               target="_blank"

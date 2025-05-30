@@ -24,17 +24,17 @@ export const socialsList: SocialLink[] = [
   },
   {
     link: "mailto:kouakouangeericstephane@gmail.com",
-    text: "kouakouangeericstephane@gmail.com",
+    text: "Email",
     id: "mail-link",
   },
   {
     link: "tel:+33759802343",
-    text: "+33 7 59 80 23 43",
+    text: "Téléphone",
     id: "phone-link",
   },
   {
     link: "/",
-    text: "France",
+    text: "Mobilité toute France",
     id: "location",
   },
 ];
