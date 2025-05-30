@@ -64,7 +64,7 @@ export default function Skills({
       <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
         <div>
           <h4 className="mb-[50px] font-medium">{hardSkillsTitle}</h4>
-          <div className="flex flex-wrap gap-8">
+          <div className="grid grid-cols-3 gap-8">
             {hardSkills.map((skill) => {
               const Icon = iconMap[skill.label] ?? <FaCode />;
               const content = (
@@ -79,7 +79,7 @@ export default function Skills({
                 <Chip
                   key={skill.label}
                   template={content}
-                  className="px-8 py-4 text-5xl"
+                  className="flex items-center justify-center px-8 py-4 text-center text-5xl"
                 />
               );
             })}
@@ -88,12 +88,12 @@ export default function Skills({
         <div className="flex flex-col justify-between">
           <div>
             <h4 className="mb-[50px] font-medium">{softSkillsTitle}</h4>
-            <div className="flex flex-wrap gap-8">
+            <div className="grid grid-cols-3 gap-8">
               {softSkills.map((label) => (
                 <Chip
                   key={label}
                   label={label}
-                  className="px-4 py-2 text-5xl"
+                  className="flex items-center justify-center px-4 py-2 text-center text-5xl"
                 />
               ))}
             </div>
