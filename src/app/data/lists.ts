@@ -4,6 +4,7 @@ export interface SocialLink {
   link: string;
   text: string;
   id: string;
+  icon?: string;
 }
 
 export const socialsList: SocialLink[] = [
@@ -11,31 +12,37 @@ export const socialsList: SocialLink[] = [
     link: "https://www.linkedin.com/in/ange-kouakou/",
     text: "LinkedIn",
     id: "linkedin-link",
+    icon: "pi pi-linkedin",
   },
   {
     link: "https://github.com/Ange230700",
     text: "GitHub",
     id: "github-link",
+    icon: "pi pi-github",
   },
   {
     link: "https://ultime-portfolio.vercel.app/",
     text: "Portfolio",
     id: "portfolio-link",
+    icon: "pi pi-globe",
   },
   {
     link: "mailto:kouakouangeericstephane@gmail.com",
     text: "Email",
     id: "mail-link",
+    icon: "pi pi-envelope",
   },
   {
     link: "tel:+33759802343",
     text: "Téléphone",
     id: "phone-link",
+    icon: "pi pi-phone",
   },
   {
     link: "/",
     text: "Mobilité toute France",
     id: "location",
+    icon: "pi pi-map-marker",
   },
 ];
 

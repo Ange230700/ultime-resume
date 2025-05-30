@@ -39,9 +39,13 @@ export default function Header({
               href={social.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="italic underline decoration-dotted hover:text-[var(--highlight-text-color)]"
-              dangerouslySetInnerHTML={{ __html: social.text }}
-            />
+              className="flex items-center space-x-4 italic underline decoration-dotted hover:text-[var(--highlight-text-color)]"
+            >
+              {social.icon && (
+                <i className={`${social.icon} text-5xl`} aria-hidden="true" />
+              )}
+              <span>{social.text}</span>
+            </a>
           </li>
         ))}
       </ul>
