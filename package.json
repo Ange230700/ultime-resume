@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky",
-    "generate-pdf": "tsx src/generate-pdf.ts"
+    "generate-pdf": "tsx src/generate-pdf.ts",
+    "save": "npm run generate-pdf && git add . && npx commit-prompt && git push"
   },
   "dependencies": {
     "next": "15.3.1",
@@ -30,7 +31,8 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.3.1",
-    "eslint-config-prettier": "^10.1.2",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-prettier": "^5.4.1",
     "husky": "^9.1.7",
     "lint-staged": "^15.5.1",
     "prettier": "^3.5.3",
