@@ -81,7 +81,7 @@ export const projectsLinks: Record<string, string> = {
   daf: "https://ultime-daf.vercel.app/",
   quiz: "https://void-quiz.vercel.app/",
   morse_translator: "https://github.com/Ange230700/04_can_you_speak_morse",
-  mastermind: "https://github.com/Ange230700/08_mastermind",
+  mastermind: "https://ultime-mastermind.vercel.app/",
   back_office: "https://github.com/Ange230700/back-office-app",
   ott: "https://ultime-streamia.vercel.app/",
   furniture: "https://github.com/Ange230700/luxury_camps",
@@ -119,6 +119,15 @@ export const experiencesList: Experience[] = [
       "- Équipe de 3 personnes | TypeScript, Angular, PrimeNg, TailwindCSS",
       "- Formulaire progressif",
       "- Rapports d'état via notifications et messages",
+    ],
+  },
+  {
+    experience_id: "mastermind",
+    project_description: `Jeu de logique: _[Mastermind](${projectsLinks.mastermind})_`,
+    tasks: [
+      "- Projet personnel | TypeScript, Vue, PrimeVue, TailwindCSS",
+      "- Logique et ordre d'exécution",
+      "- Notifications et messages",
     ],
   },
   // {
