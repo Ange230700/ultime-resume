@@ -151,9 +151,9 @@ export interface Education {
 export const educationList: Education[] = [
   {
     formation_id: 7,
-    formation_title: "Formation Développeur•se Web et Mobile",
+    formation_title: "Formation Développeur Web et Mobile",
     school: "ADA Tech School",
-    formation_span: "Depuis 10/2024",
+    formation_span: "10/2024 - 06/2025",
   },
   {
     formation_id: 6,

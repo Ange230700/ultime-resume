@@ -5,11 +5,18 @@ import Header from "@/app/components/Header";
 import Skills from "@/app/components/Skills";
 import Experiences from "@/app/components/Experiences";
 import EducationSection from "@/app/components/Education";
+import Pitch from "@/app/components/Pitch";
 // import Hobbies from "@/app/components/Hobbies";
 
 export default function Home() {
-  const { header, contact, skills, experiences, education /*, hobbies*/ } =
-    resumeData;
+  const {
+    header,
+    pitch,
+    contact,
+    skills,
+    experiences,
+    education /*, hobbies*/,
+  } = resumeData;
 
   return (
     <main
@@ -23,6 +30,8 @@ export default function Home() {
         details={header.details}
         socials={contact.socials}
       />
+
+      <Pitch content={pitch} />
 
       <Skills
         sectionTitle={skills.section_title}

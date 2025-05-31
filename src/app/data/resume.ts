@@ -34,6 +34,7 @@ export interface ResumeSectionList<T> {
 
 export interface ResumeData {
   header: ResumeHeader;
+  pitch: string;
   contact: { socials: SocialLink[] };
   skills: ResumeSkills;
   experiences: ResumeSectionList<Experience>;
@@ -48,6 +49,7 @@ const resumeData: ResumeData = {
     details:
       "Recherche un contrat d'apprentissage de **12 ou 36 mois** : _4 jours entreprise – 1 jour en formation_ à partir de **Juin 2025**.",
   },
+  pitch: `Actuellement en formation développeur fullstack web et mobile à ADA Tech School, j’ai travaillé sur plusieurs projets d’équipe, dont une application React pour visualiser des données du FBI, développant à la fois mes capacités techniques et mon intérêt pour l’agilité. Dans le cadre de la préparation de la certification RNCP Niveau 6, je suis à la recherche d’une alternance de 12 ou 36 mois.`,
   contact: { socials: socialsList },
   skills: {
     section_title: "Compétences",
