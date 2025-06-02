@@ -98,7 +98,7 @@ export interface Experience {
 export const experiencesList: Experience[] = [
   {
     experience_id: "ott",
-    project_description: `Plateforme de service de vidéos: _[Streamia](${projectsLinks.ott})_. (Cliquer sur le nom ci-contre pour voir)`,
+    project_description: `Plateforme de service de vidéos: _[Streamia](${projectsLinks.ott})_`,
     tasks: [
       "- Projet personnel | TypeScript, Next.js, TailwindCSS, React, PrimeReact, Prisma, MySQL",
       "- Authentification avec token et gestion des droits d’utilisateurs",
@@ -107,7 +107,7 @@ export const experiencesList: Experience[] = [
   },
   {
     experience_id: "daf",
-    project_description: `Interfaces des enquêtes en cours du FBI: _[DAF](${projectsLinks.daf})_. (Cliquer sur le nom ci-contre pour voir)`,
+    project_description: `Interfaces des enquêtes en cours du FBI: _[DAF](${projectsLinks.daf})_`,
     tasks: [
       "- Équipe de 3 personnes | TypeScript, React, PrimeReact, TailwindCSS, Chart.js",
       "- Récupération des données via l'API du FBI",
@@ -116,7 +116,7 @@ export const experiencesList: Experience[] = [
   },
   {
     experience_id: "quiz",
-    project_description: `Quiz multi-thèmes: _[Void Trivia](${projectsLinks.quiz})_. (Cliquer sur le nom ci-contre pour voir)`,
+    project_description: `Quiz multi-thèmes: _[Void Trivia](${projectsLinks.quiz})_`,
     tasks: [
       "- Équipe de 3 personnes | TypeScript, Angular, PrimeNg, TailwindCSS",
       "- Rituels agiles: daily meeting, retrospective",
@@ -125,7 +125,7 @@ export const experiencesList: Experience[] = [
   },
   {
     experience_id: "mastermind",
-    project_description: `Jeu de logique: _[Mastermind](${projectsLinks.mastermind})_. (Cliquer sur le nom ci-contre pour voir)`,
+    project_description: `Jeu de logique: _[Mastermind](${projectsLinks.mastermind})_`,
     tasks: [
       "- Projet personnel | TypeScript, Vue, PrimeVue, TailwindCSS",
       "- Logique et ordre d'exécution",
