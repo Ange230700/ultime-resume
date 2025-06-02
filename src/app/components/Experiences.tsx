@@ -1,7 +1,7 @@
 // src\app\components\Experiences.tsx
 
 import ReactMarkdown from "react-markdown";
-import rehypeSanitize from "rehype-sanitize";
+import rehypeSanitize, { defaultSchema } from "rehype-sanitize";
 import remarkGfm from "remark-gfm";
 import { Experience } from "@/app/data/lists";
 import LinkRenderer from "@/app/components/LinkRenderer";
@@ -10,6 +10,22 @@ interface ExperiencesProps {
   sectionTitle: string;
   list: Experience[];
 }
+
+//  ─── Extend `defaultSchema` to allow `className` on <a> ────────────────────
+const sanitizeSchema = {
+  ...defaultSchema,
+  attributes: {
+    // start with everything the default schema already allows
+    ...defaultSchema.attributes,
+    // ensure that <a> tags can have `className`
+    a: [
+      // bring in any attributes defaultSchema already allowed on <a>
+      ...(defaultSchema.attributes?.a || []),
+      // then allow `className`
+      "className",
+    ],
+  },
+};
 
 export default function Experiences({
   sectionTitle,
@@ -26,7 +42,7 @@ export default function Experiences({
             <div className="mb-1 font-medium">
               <ReactMarkdown
                 remarkPlugins={[remarkGfm]}
-                rehypePlugins={[rehypeSanitize]}
+                rehypePlugins={[[rehypeSanitize, sanitizeSchema]]}
                 components={{
                   a: LinkRenderer,
                 }}
@@ -37,7 +53,7 @@ export default function Experiences({
             <div className="list-inside space-y-1 pl-5 text-5xl leading-15 text-[var(--text-color)]">
               <ReactMarkdown
                 remarkPlugins={[remarkGfm]}
-                rehypePlugins={[rehypeSanitize]}
+                rehypePlugins={[[rehypeSanitize, sanitizeSchema]]}
                 components={{
                   a: LinkRenderer,
                 }}

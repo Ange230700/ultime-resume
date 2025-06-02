@@ -98,7 +98,7 @@ export interface Experience {
 export const experiencesList: Experience[] = [
   {
     experience_id: "ott",
-    project_description: `Plateforme de service de vidéos: _[Streamia](${projectsLinks.ott})_`,
+    project_description: `Plateforme de service de vidéos: _[Streamia](${projectsLinks.ott})_. (Cliquer sur le nom ci-contre pour voir)`,
     tasks: [
       "- Projet personnel | TypeScript, Next.js, TailwindCSS, React, PrimeReact, Prisma, MySQL",
       "- Authentification avec token et gestion des droits d’utilisateurs",
@@ -107,7 +107,7 @@ export const experiencesList: Experience[] = [
   },
   {
     experience_id: "daf",
-    project_description: `Interfaces des enquêtes en cours du FBI: _[DAF](${projectsLinks.daf})_`,
+    project_description: `Interfaces des enquêtes en cours du FBI: _[DAF](${projectsLinks.daf})_. (Cliquer sur le nom ci-contre pour voir)`,
     tasks: [
       "- Équipe de 3 personnes | TypeScript, React, PrimeReact, TailwindCSS, Chart.js",
       "- Récupération des données via l'API du FBI",
@@ -116,7 +116,7 @@ export const experiencesList: Experience[] = [
   },
   {
     experience_id: "quiz",
-    project_description: `Quiz multi-thèmes: _[Void Trivia](${projectsLinks.quiz})_`,
+    project_description: `Quiz multi-thèmes: _[Void Trivia](${projectsLinks.quiz})_. (Cliquer sur le nom ci-contre pour voir)`,
     tasks: [
       "- Équipe de 3 personnes | TypeScript, Angular, PrimeNg, TailwindCSS",
       "- Rituels agiles: daily meeting, retrospective",
@@ -125,7 +125,7 @@ export const experiencesList: Experience[] = [
   },
   {
     experience_id: "mastermind",
-    project_description: `Jeu de logique: _[Mastermind](${projectsLinks.mastermind})_`,
+    project_description: `Jeu de logique: _[Mastermind](${projectsLinks.mastermind})_. (Cliquer sur le nom ci-contre pour voir)`,
     tasks: [
       "- Projet personnel | TypeScript, Vue, PrimeVue, TailwindCSS",
       "- Logique et ordre d'exécution",
@@ -134,7 +134,7 @@ export const experiencesList: Experience[] = [
   },
   // {
   //   experience_id: "motus",
-  //   project_description: `Jeu de mots: _[Motus](${projectsLinks.motus})_`,
+  //   project_description: `Jeu de mots: [Motus](${projectsLinks.motus})`,
   //   tasks: [
   //     "- Projet personnel | TypeScript, Nuxt, TailwindCSS, PrimeVue",
   //     "- Structure de données",
@@ -143,7 +143,7 @@ export const experiencesList: Experience[] = [
   // },
   // {
   //   experience_id: "furniture",
-  //   project_description: `Plateforme de vente de meubles: _[voir code source ici](${projectsLinks.furniture})_`,
+  //   project_description: `Plateforme de vente de meubles: [voir code source ici](${projectsLinks.furniture})`,
   //   tasks: [
   //     "- Équipe de 6 personnes | 2 semaines | SpringBoot, Angular/Typescript, TailwindCSS, PrimeNg",
   //     "- Modélisation UML",
@@ -152,7 +152,7 @@ export const experiencesList: Experience[] = [
   // },
   // {
   //   experience_id: "back_office",
-  //   project_description: `Back-office pour une association de collectes de déchets: _[voir code source ici](${projectsLinks.back_office})_`,
+  //   project_description: `Back-office pour une association de collectes de déchets: [voir code source ici](${projectsLinks.back_office})`,
   //   tasks: [
   //     "- Équipe de 3 personnes | 2 semaines | PHP, Twig, Symfony",
   //     "- Authentification basique et gestion des droits d’utilisateurs",

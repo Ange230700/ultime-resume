@@ -12,6 +12,7 @@
     "save": "npm run generate-pdf && git add . && npx commit-prompt && git push"
   },
   "dependencies": {
+    "hast-util-sanitize": "^5.0.2",
     "next": "15.3.1",
     "primeicons": "^7.0.0",
     "primereact": "^10.9.5",
