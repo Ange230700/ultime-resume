@@ -4,6 +4,7 @@ import ReactMarkdown from "react-markdown";
 import rehypeSanitize from "rehype-sanitize";
 import remarkGfm from "remark-gfm";
 import { Experience } from "@/app/data/lists";
+import LinkRenderer from "@/app/components/LinkRenderer";
 
 interface ExperiencesProps {
   sectionTitle: string;
@@ -26,6 +27,9 @@ export default function Experiences({
               <ReactMarkdown
                 remarkPlugins={[remarkGfm]}
                 rehypePlugins={[rehypeSanitize]}
+                components={{
+                  a: LinkRenderer,
+                }}
               >
                 {exp.project_description}
               </ReactMarkdown>
@@ -34,6 +38,9 @@ export default function Experiences({
               <ReactMarkdown
                 remarkPlugins={[remarkGfm]}
                 rehypePlugins={[rehypeSanitize]}
+                components={{
+                  a: LinkRenderer,
+                }}
               >
                 {exp.tasks.join("\n")}
               </ReactMarkdown>
