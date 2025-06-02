@@ -85,6 +85,7 @@ export const projectsLinks: Record<string, string> = {
   back_office: "https://github.com/Ange230700/back-office-app",
   ott: "https://ultime-streamia.vercel.app/",
   furniture: "https://github.com/Ange230700/luxury_camps",
+  motus: "https://ultime-motus.vercel.app/",
 };
 
 export interface Experience {
@@ -130,6 +131,15 @@ export const experiencesList: Experience[] = [
       "- Notifications et messages",
     ],
   },
+  // {
+  //   experience_id: "motus",
+  //   project_description: `Jeu de mots: _[Motus](${projectsLinks.motus})_`,
+  //   tasks: [
+  //     "- Projet personnel | TypeScript, Nuxt, TailwindCSS, PrimeVue",
+  //     "- Structure de données",
+  //     // "- ",
+  //   ],
+  // },
   // {
   //   experience_id: "furniture",
   //   project_description: `Plateforme de vente de meubles: _[voir code source ici](${projectsLinks.furniture})_`,
