@@ -19,7 +19,7 @@ export default function LinkRenderer({
       target="_blank"
       rel="noopener noreferrer"
       {...props}
-      className="underline decoration-[var(--highlight-bg)] transition-colors duration-150 hover:decoration-[var(--primary-color)]"
+      className="underline decoration-[var(--primary-color)]"
     >
       {children}
     </a>
