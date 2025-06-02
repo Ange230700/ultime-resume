@@ -58,6 +58,7 @@ export const hardSkills: HardSkill[] = [
   { label: "Angular", icon: "pi pi-code" },
   { label: "Vue", icon: "pi pi-code" },
   { label: "Nuxt.js", icon: "pi pi-code" },
+  { label: "NodeJS", icon: "pi pi-code" },
   { label: "Express", icon: "pi pi-code" },
   { label: "NestJS", icon: "pi pi-code" },
   { label: "Prisma", icon: "pi pi-code" },
@@ -118,8 +119,8 @@ export const experiencesList: Experience[] = [
     project_description: `Quiz multi-thèmes: _[Void Trivia](${projectsLinks.quiz})_`,
     tasks: [
       "- Équipe de 3 personnes | TypeScript, Angular, PrimeNg, TailwindCSS",
-      "- Formulaire progressif",
-      "- Rapports d'état via notifications et messages",
+      "- Rituels agiles: daily meeting, retrospective",
+      "- Modélisation UI/UX avec Figma",
     ],
   },
   {

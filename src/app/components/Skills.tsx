@@ -8,6 +8,7 @@ import {
   SiNestjs,
   SiNuxtdotjs,
   SiPrisma,
+  SiExpress,
 } from "react-icons/si";
 import { RiNextjsFill } from "react-icons/ri";
 import {
@@ -28,7 +29,7 @@ const iconMap: Record<string, React.ReactNode> = {
   "Next.js": <RiNextjsFill />,
   JavaScript: <FaJs />,
   React: <FaReact />,
-  Express: <FaNodeJs />,
+  NodeJS: <FaNodeJs />,
   PHP: <FaPhp />,
   // Symfony: <FaSymfony />,
   MySQL: <FaDatabase />,
@@ -39,6 +40,7 @@ const iconMap: Record<string, React.ReactNode> = {
   "Nuxt.js": <SiNuxtdotjs />,
   Vue: <FaVuejs />,
   Prisma: <SiPrisma />,
+  Express: <SiExpress />,
 };
 
 interface SkillsProps {
