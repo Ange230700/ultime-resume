@@ -6,17 +6,11 @@ import Skills from "@/app/components/Skills";
 import Experiences from "@/app/components/Experiences";
 import EducationSection from "@/app/components/Education";
 import Pitch from "@/app/components/Pitch";
-// import Hobbies from "@/app/components/Hobbies";
+import Hobbies from "@/app/components/Hobbies";
 
 export default function Home() {
-  const {
-    header,
-    pitch,
-    contact,
-    skills,
-    experiences,
-    education /*, hobbies*/,
-  } = resumeData;
+  const { header, pitch, contact, skills, experiences, education, hobbies } =
+    resumeData;
 
   return (
     <main
@@ -41,17 +35,23 @@ export default function Home() {
         softSkills={skills.softSkills}
       />
 
-      <Experiences
-        sectionTitle={experiences.section_title}
-        list={experiences.list}
-      />
+      <div className="flex gap-6">
+        <div className="w-3/4">
+          <Experiences
+            sectionTitle={experiences.section_title}
+            list={experiences.list}
+          />
+        </div>
+
+        <div className="w-1/4">
+          <Hobbies sectionTitle={hobbies.section_title} list={hobbies.list} />
+        </div>
+      </div>
 
       <EducationSection
         sectionTitle={education.section_title}
         list={education.list}
       />
-
-      {/* <Hobbies sectionTitle={hobbies.section_title} list={hobbies.list} /> */}
     </main>
   );
 }

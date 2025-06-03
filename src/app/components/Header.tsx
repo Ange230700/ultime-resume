@@ -20,7 +20,7 @@ export default function Header({
 }: Readonly<HeaderProps>) {
   return (
     <section className="space-y-2 text-center">
-      <h1 className="mb-[25px] text-9xl font-bold text-[var(--primary-color)] uppercase">
+      <h1 className="mb-[25px] text-9xl font-bold text-[var(--highlight-text-color)] uppercase">
         {name}
       </h1>
       <h2 className="mb-[25px] text-7xl font-medium">{title}</h2>

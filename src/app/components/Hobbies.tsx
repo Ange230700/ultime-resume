@@ -11,15 +11,12 @@ export default function Hobbies({
 }: Readonly<HobbiesProps>) {
   return (
     <section className="space-y-2">
-      <h3 className="text-xl font-semibold text-blue-800 underline">
+      <h3 className="mb-[25px] text-7xl font-semibold text-[var(--highlight-text-color)] underline">
         {sectionTitle}
       </h3>
       <div className="flex flex-wrap gap-2">
         {list.map((hobby) => (
-          <span
-            key={hobby}
-            className="rounded-full bg-gray-200 px-3 py-1 text-gray-700"
-          >
+          <span key={hobby} className="rounded-full px-3 py-1">
             {hobby}
           </span>
         ))}

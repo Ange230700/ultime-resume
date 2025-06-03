@@ -6,7 +6,7 @@ import {
   softSkills,
   experiencesList,
   educationList,
-  // hobbiesList,
+  hobbiesList,
   HardSkill,
   SocialLink,
   Experience,
@@ -39,7 +39,7 @@ export interface ResumeData {
   skills: ResumeSkills;
   experiences: ResumeSectionList<Experience>;
   education: ResumeSectionList<Education>;
-  // hobbies: ResumeSectionList<string>;
+  hobbies: ResumeSectionList<string>;
 }
 
 const resumeData: ResumeData = {
@@ -47,9 +47,9 @@ const resumeData: ResumeData = {
     name: "Ange KOUAKOU",
     title: "Développeur Fullstack",
     details:
-      "Recherche un contrat d'apprentissage de **12 ou 36 mois** : _4 jours entreprise – 1 jour en formation_ à partir de **Juin 2025**.",
+      "Recherche un contrat d'apprentissage de **12 ou 36 mois** : _4 jours entreprise – 1 jour en formation_.",
   },
-  pitch: `Actuellement en formation à ADA Tech School, je développe mes compétences techniques en TypeScript, Java, PHP et Python. J'ai acquis une solide expérience sur des projets utilisant React, Node.js, et les API REST. Ma participation active à des projets en équipe, notamment une application de visualisation de données issues d’API (React, TypeScript), m’a permis de maîtriser l’agilité, le Git Flow et les outils modernes tels que Visual Studio Code, GitHub, et TailwindCSS. Dans le cadre d'une alternance de 12 ou 36 mois visant l'obtention d'une certification RNCP niveau 6, je souhaite rejoindre un environnement stimulant et innovant où je pourrais contribuer efficacement et continuer à progresser, particulièrement sur les technologies web et mobiles telles que ReactJS et React Native.`,
+  pitch: `Actuellement apprenant à ADA Tech School, je conçois des interfaces web modernes en TypeScript (Angular, React) et Node.js, depuis la maquette Figma jusqu’au déploiement. Mes projets — plateforme de streaming, data-visualisation des enquêtes du FBI, quiz multi-thèmes — m’ont forgé une solide maîtrise des API REST, du Git Flow et des pratiques Agile/Scrum. Curieux et rigoureux, je cultive une veille active sur l’IA générative. Je recherche un contrat d’apprentissage de 12 ou 36 mois (4 jours en entreprise / 1 jour en formation) afin de contribuer aux solutions innovantes d’Amadeus tout en préparant la certification RNCP niveau 6, première étape vers mon objectif d’expertise en architecture logicielle.`,
   contact: { socials: socialsList },
   skills: {
     section_title: "Compétences",
@@ -66,10 +66,10 @@ const resumeData: ResumeData = {
     section_title: "Formations",
     list: educationList,
   },
-  // hobbies: {
-  //   section_title: "Hobbies",
-  //   list: hobbiesList,
-  // },
+  hobbies: {
+    section_title: "Hobbies",
+    list: hobbiesList,
+  },
 };
 
 export default resumeData;

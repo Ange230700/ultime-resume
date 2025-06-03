@@ -213,4 +213,7 @@ export const educationList: Education[] = [
   },
 ];
 
-export const hobbiesList: string[] = ["Apprentissage autodidacte du piano"];
+export const hobbiesList: string[] = [
+  "Apprentissage autodidacte du piano",
+  "Basket-ball",
+];
