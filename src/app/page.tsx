@@ -7,10 +7,19 @@ import Experiences from "@/app/components/Experiences";
 import EducationSection from "@/app/components/Education";
 import Pitch from "@/app/components/Pitch";
 import Hobbies from "@/app/components/Hobbies";
+import Miscellaneous from "@/app/components/Miscellaneous";
 
 export default function Home() {
-  const { header, pitch, contact, skills, experiences, education, hobbies } =
-    resumeData;
+  const {
+    header,
+    pitch,
+    contact,
+    skills,
+    experiences,
+    education,
+    hobbies,
+    miscellaneous,
+  } = resumeData;
 
   return (
     <main
@@ -44,7 +53,13 @@ export default function Home() {
         </div>
 
         <div className="w-1/4">
-          <Hobbies sectionTitle={hobbies.section_title} list={hobbies.list} />
+          <div className="flex flex-col gap-6">
+            <Hobbies sectionTitle={hobbies.section_title} list={hobbies.list} />
+            <Miscellaneous
+              sectionTitle={miscellaneous.section_title}
+              list={miscellaneous.list}
+            />
+          </div>
         </div>
       </div>
 

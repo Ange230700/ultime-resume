@@ -214,6 +214,13 @@ export const educationList: Education[] = [
 ];
 
 export const hobbiesList: string[] = [
-  "Apprentissage autodidacte du piano",
-  "Basket-ball",
+  "- Apprentissage autodidacte du piano",
+  "- Basket-ball",
+  "- MCU et DCU",
+];
+
+export const miscellaneousList: string[] = [
+  "- Maquettage et Wireframing (Figma)",
+  "- Planification de projets (Github projects)",
+  "- Préparation titre RNCP de niveau Concepteur-Développeur d’Applications Web & Mobile",
 ];

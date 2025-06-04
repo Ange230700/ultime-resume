@@ -7,6 +7,7 @@ import {
   experiencesList,
   educationList,
   hobbiesList,
+  miscellaneousList,
   HardSkill,
   SocialLink,
   Experience,
@@ -40,6 +41,7 @@ export interface ResumeData {
   experiences: ResumeSectionList<Experience>;
   education: ResumeSectionList<Education>;
   hobbies: ResumeSectionList<string>;
+  miscellaneous: ResumeSectionList<string>;
 }
 
 const resumeData: ResumeData = {
@@ -49,7 +51,7 @@ const resumeData: ResumeData = {
     details:
       "Recherche un contrat d'apprentissage de **12 ou 36 mois** : _4 jours entreprise – 1 jour en formation_.",
   },
-  pitch: `Actuellement apprenant à ADA Tech School, je conçois des interfaces web modernes en TypeScript (Angular, React) et Node.js, depuis la maquette Figma jusqu’au déploiement. Mes projets — plateforme de streaming, data-visualisation des enquêtes du FBI, quiz multi-thèmes — m’ont forgé une solide maîtrise des API REST, du Git Flow et des pratiques Agile/Scrum. Curieux et rigoureux, je cultive une veille active sur l’IA générative. Je recherche un contrat d’apprentissage de 12 ou 36 mois (4 jours en entreprise / 1 jour en formation) afin de contribuer aux solutions innovantes d’Amadeus tout en préparant la certification RNCP niveau 6, première étape vers mon objectif d’expertise en architecture logicielle.`,
+  pitch: `Actuellement apprenant développeur full-stack à ADA Tech School, je perfectionne quotidiennement mes compétences front-end et back-end. Les projets d’équipe que j’ai menés m’ont permis d’approfondir les pratiques Agile – qu’il s’agisse des daily meetings, des rétrospectives ou du Git Flow – et de livrer des fonctionnalités robustes dans des délais courts. Je pratique régulièrement TypeScript, React et Node.js, les technologies mêmes que j’ai utilisées pour développer mon projet personnel Streamia, une plateforme de streaming conçue en Next.js, le framework React.Curieux, rigoureux et animé par une forte envie d’apprendre, je souhaite mettre mon savoir-faire au service de votre évolution tout en poursuivant mon parcours de formation vers le titre RNCP Concepteur-Développeur d’Applications Web & Mobile dans le cadre d’un contrat d’apprentissage.`,
   contact: { socials: socialsList },
   skills: {
     section_title: "Compétences",
@@ -69,6 +71,10 @@ const resumeData: ResumeData = {
   hobbies: {
     section_title: "Hobbies",
     list: hobbiesList,
+  },
+  miscellaneous: {
+    section_title: "Divers",
+    list: miscellaneousList,
   },
 };
 
