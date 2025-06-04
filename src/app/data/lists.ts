@@ -87,6 +87,7 @@ export const projectsLinks: Record<string, string> = {
   ott: "https://ultime-streamia.vercel.app/",
   furniture: "https://github.com/Ange230700/luxury_camps",
   motus: "https://ultime-motus.vercel.app/",
+  void_null: "https://void-null-front.vercel.app/",
 };
 
 export interface Experience {
@@ -103,6 +104,15 @@ export const experiencesList: Experience[] = [
       "- Projet personnel | TypeScript, Next.js, TailwindCSS, React, PrimeReact, Prisma, MySQL",
       "- Authentification avec token et gestion des droits d’utilisateurs",
       "- Manipulation de données média",
+    ],
+  },
+  {
+    experience_id: "void_null",
+    project_description: `Gestionnaire d'items: _[VoidNull](${projectsLinks.void_null})_`,
+    tasks: [
+      "- Projet personnel | TypeScript, Angular, NestJS, MySQL",
+      "- API REST CRUD",
+      "- Pagination",
     ],
   },
   {
@@ -123,22 +133,13 @@ export const experiencesList: Experience[] = [
       "- Modélisation UI/UX avec Figma",
     ],
   },
-  {
-    experience_id: "mastermind",
-    project_description: `Jeu de logique: _[Mastermind](${projectsLinks.mastermind})_`,
-    tasks: [
-      "- Projet personnel | TypeScript, Vue, PrimeVue, TailwindCSS",
-      "- Logique et ordre d'exécution",
-      "- Notifications et messages",
-    ],
-  },
   // {
-  //   experience_id: "motus",
-  //   project_description: `Jeu de mots: [Motus](${projectsLinks.motus})`,
+  //   experience_id: "mastermind",
+  //   project_description: `Jeu de logique: _[Mastermind](${projectsLinks.mastermind})_`,
   //   tasks: [
-  //     "- Projet personnel | TypeScript, Nuxt, TailwindCSS, PrimeVue",
-  //     "- Structure de données",
-  //     // "- ",
+  //     "- Projet personnel | TypeScript, Vue, PrimeVue, TailwindCSS",
+  //     "- Logique et ordre d'exécution",
+  //     "- Notifications et messages",
   //   ],
   // },
   // {
