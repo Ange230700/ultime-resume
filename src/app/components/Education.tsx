@@ -13,7 +13,7 @@ export default function EducationSection({
 }: Readonly<EducationProps>) {
   return (
     <section className="space-y-4">
-      <h3 className="mb-[25px] text-6xl font-semibold text-[var(--highlight-text-color)] underline">
+      <h3 className="mb-[25px] text-5xl font-semibold text-[var(--highlight-text-color)] underline">
         {sectionTitle}
       </h3>
       <div className="space-y-2">

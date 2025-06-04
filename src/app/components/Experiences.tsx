@@ -33,7 +33,7 @@ export default function Experiences({
 }: Readonly<ExperiencesProps>) {
   return (
     <section className="space-y-2">
-      <h3 className="mb-[25px] text-6xl font-semibold text-[var(--highlight-text-color)] underline">
+      <h3 className="mb-[25px] text-5xl font-semibold text-[var(--highlight-text-color)] underline">
         {sectionTitle}
       </h3>
       <div className="space-y-6">
@@ -50,7 +50,7 @@ export default function Experiences({
                 {exp.project_description}
               </ReactMarkdown>
             </div>
-            <div className="list-inside space-y-1 pl-5 text-5xl leading-15 text-[var(--text-color)]">
+            <div className="list-inside space-y-1 pl-5 leading-15 text-[var(--text-color)]">
               <ReactMarkdown
                 remarkPlugins={[remarkGfm]}
                 rehypePlugins={[[rehypeSanitize, sanitizeSchema]]}

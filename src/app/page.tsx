@@ -53,7 +53,7 @@ export default function Home() {
         </div>
 
         <div className="w-1/4">
-          <div className="flex flex-col gap-6">
+          <div className="flex h-full flex-col justify-between">
             <Hobbies sectionTitle={hobbies.section_title} list={hobbies.list} />
             <Miscellaneous
               sectionTitle={miscellaneous.section_title}
