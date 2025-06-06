@@ -10,7 +10,7 @@ export default function Miscellaneous({
   list,
 }: Readonly<MiscellaneousProps>) {
   return (
-    <section className="space-y-2">
+    <section className="flex flex-1 flex-col justify-center space-y-2">
       <h3 className="mb-[25px] text-5xl font-semibold text-[var(--highlight-text-color)] underline">
         {sectionTitle}
       </h3>

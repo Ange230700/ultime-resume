@@ -45,14 +45,14 @@ export default function Home() {
       />
 
       <div className="flex gap-6">
-        <div className="w-3/4">
+        <div className="w-65/100">
           <Experiences
             sectionTitle={experiences.section_title}
             list={experiences.list}
           />
         </div>
 
-        <div className="w-1/4">
+        <div className="w-35/100">
           <div className="flex h-full flex-col justify-between">
             <Hobbies sectionTitle={hobbies.section_title} list={hobbies.list} />
             <Miscellaneous

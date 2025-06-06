@@ -14,7 +14,7 @@ export default function Hobbies({
       <h3 className="mb-[25px] text-5xl font-semibold text-[var(--highlight-text-color)] underline">
         {sectionTitle}
       </h3>
-      <div className="flex flex-wrap gap-2">
+      <div className="flex flex-col gap-2">
         {list.map((hobby) => (
           <span key={hobby} className="rounded-full px-3 py-1">
             {hobby}
