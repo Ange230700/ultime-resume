@@ -54,11 +54,11 @@ export default function Home() {
 
         <div className="w-35/100">
           <div className="flex h-full flex-col justify-between">
-            <Hobbies sectionTitle={hobbies.section_title} list={hobbies.list} />
             <Miscellaneous
               sectionTitle={miscellaneous.section_title}
               list={miscellaneous.list}
             />
+            <Hobbies sectionTitle={hobbies.section_title} list={hobbies.list} />
           </div>
         </div>
       </div>

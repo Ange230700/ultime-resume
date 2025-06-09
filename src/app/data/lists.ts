@@ -222,6 +222,7 @@ export const hobbiesList: string[] = [
 
 export const miscellaneousList: string[] = [
   "- Préparation du titre RNCP de niveau 6 Concepteur-Développeur d’Applications Web & Mobile",
+  "- Docker",
   "- CI/CD (Vercel, Render, AlwaysData)",
   "- Planification de projets (Github projects, Jira)",
   "- Maquettage et Wireframing (Figma)",
