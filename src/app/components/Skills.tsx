@@ -101,7 +101,8 @@ export default function Skills({
             </div>
           </div>
           <p>
-            Maîtrise de l&apos;anglais: <strong>Niveau B2</strong>
+            Maîtrise de l&apos;anglais:{" "}
+            <strong>(Lecture, rédaction et oral)</strong>
           </p>
         </div>
       </div>
