@@ -100,8 +100,8 @@ export default function Skills({
               ))}
             </div>
           </div>
-          <strong>(Lecture, rédaction et oral)</strong>
           <p>Maîtrise de l&apos;anglais: </p>
+          <strong>(Lecture, rédaction et oral)</strong>
         </div>
       </div>
     </section>

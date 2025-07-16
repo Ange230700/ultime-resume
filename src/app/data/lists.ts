@@ -88,6 +88,8 @@ export const projectsLinks: Record<string, string> = {
   furniture: "https://github.com/Ange230700/luxury_camps",
   motus: "https://ultime-motus.vercel.app/",
   void_null: "https://void-null-front.vercel.app/",
+  abyss: "https://abyss-front-two.vercel.app/",
+  vacuum: "https://cleared-front.vercel.app",
 };
 
 export interface Experience {
@@ -102,37 +104,42 @@ export const experiencesList: Experience[] = [
     project_description: `Plateforme de service de vidéos: _[Streamia](${projectsLinks.ott})_`,
     tasks: [
       "- Projet personnel | TypeScript, Next.js, TailwindCSS, React, PrimeReact, Prisma, MySQL",
-      "- Authentification avec token et gestion des droits d’utilisateurs",
       "- Manipulation de données média",
     ],
   },
   {
-    experience_id: "void_null",
-    project_description: `Gestionnaire d'items: _[VoidNull](${projectsLinks.void_null})_`,
+    experience_id: "abyss",
+    project_description: `Plateforme de vente de meubles: _[Abyss](${projectsLinks.abyss})_`,
     tasks: [
-      "- Projet personnel | TypeScript, Angular, NestJS, MySQL",
-      "- API REST CRUD",
-      "- Pagination",
+      "- Projet personnel | TypeScript, Angular, PrimeNg, Prisma, NestJs",
+      "- Documentation API avec Swagger",
+    ],
+  },
+  {
+    experience_id: "vacuum",
+    project_description: `Plateforme de vente de meubles: _[Vacuum](${projectsLinks.vacuum})_`,
+    tasks: [
+      "- Projet personnel | TypeScript, Vue, PrimeVue, Express, Prisma",
+      "- Clean architecture",
     ],
   },
   {
     experience_id: "daf",
     project_description: `Interfaces des enquêtes en cours du FBI: _[DAF](${projectsLinks.daf})_`,
     tasks: [
-      "- Équipe de 3 personnes | TypeScript, React, PrimeReact, TailwindCSS, Chart.js",
-      "- Récupération des données via l'API du FBI",
+      "- Équipe de 3 personnes | TypeScript, React, PrimeReact, Chart.js",
       "- Data visualisation avec Chart.js",
     ],
   },
-  {
-    experience_id: "quiz",
-    project_description: `Quiz multi-thèmes: _[Void Trivia](${projectsLinks.quiz})_`,
-    tasks: [
-      "- Équipe de 3 personnes | TypeScript, Angular, PrimeNg, TailwindCSS",
-      "- Rituels agiles: daily meeting, retrospective",
-      "- Modélisation UI/UX avec Figma",
-    ],
-  },
+  // {
+  //   experience_id: "void_null",
+  //   project_description: `Gestionnaire d'items: _[VoidNull](${projectsLinks.void_null})_`,
+  //   tasks: [
+  //     "- Projet personnel | TypeScript, Angular, NestJS, MySQL",
+  //     "- API REST CRUD",
+  //     "- Pagination",
+  //   ],
+  // },
   // {
   //   experience_id: "mastermind",
   //   project_description: `Jeu de logique: _[Mastermind](${projectsLinks.mastermind})_`,
