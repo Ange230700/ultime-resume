@@ -34,7 +34,7 @@ export const socialsList: SocialLink[] = [
   },
   {
     link: "tel:+33759802343",
-    text: "Téléphone",
+    text: "+33 7 59 80 23 43",
     id: "phone-link",
     icon: "pi pi-phone",
   },
