@@ -117,7 +117,7 @@ export const experiencesList: Experience[] = [
   },
   {
     experience_id: "vacuum",
-    project_description: `Plateforme de vente de meubles: _[Vacuum](${projectsLinks.vacuum})_`,
+    project_description: `Back-office pour une association de collectes de déchets: _[Vacuum](${projectsLinks.vacuum})_`,
     tasks: [
       "- Projet personnel | TypeScript, Vue, PrimeVue, Express, Prisma",
       "- Clean architecture",
