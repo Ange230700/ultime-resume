@@ -49,9 +49,10 @@ const resumeData: ResumeData = {
     name: "Ange KOUAKOU",
     title: "Développeur Fullstack",
     details:
-      "Recherche un contrat d'apprentissage de **12 ou 36 mois** : _4 jours entreprise – 1 jour en formation_ pour Septembre 2025.",
+      "Recherche un contrat d'apprentissage de **12 à 36 mois**(_4 jours entreprise – 1 jour en formation_) ou un stage de minimum 6 mois pour Septembre 2025.",
   },
-  pitch: `Actuellement apprenant développeur full-stack à ADA Tech School, je perfectionne quotidiennement mes compétences front-end et back-end. Les projets d’équipe que j’ai menés m’ont permis d’approfondir les pratiques Agile – qu’il s’agisse des daily meetings, des rétrospectives ou du Git Flow – et de livrer des fonctionnalités robustes dans des délais courts. Je pratique régulièrement TypeScript, React et Node.js, les technologies mêmes que j’ai utilisées pour développer mon projet personnel Streamia, une plateforme de streaming conçue en Next.js, le framework React. Curieux, rigoureux et animé par une forte envie d’apprendre, je souhaite mettre mon savoir-faire au service de votre évolution tout en poursuivant mon parcours de formation vers le titre RNCP Concepteur-Développeur d’Applications Web & Mobile dans le cadre d’un contrat d’apprentissage.`,
+  pitch:
+    `Curieux, j'ai découvert la programmation dès le lycée puis j'ai confirmé mon intérêt pour ce métier à travers un bootcamp à la Wild et la formation Ada Tech School où je me forme actuellement au développement Full-stack. J'ai de l'expérience avec notamment React, Node.js et d'autres technologies de l'environnement TypeScript/JavaScript. Rigoureux et passionné, je souhaite contribuer activement à vos projets tout en poursuivant ma montée en compétences dans le cadre d’un contrat d’apprentissage.`.trim(),
   contact: { socials: socialsList },
   skills: {
     section_title: "Compétences",

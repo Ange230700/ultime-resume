@@ -11,7 +11,7 @@ export default function Hobbies({
 }: Readonly<HobbiesProps>) {
   return (
     <section className="space-y-2">
-      <h3 className="mb-[25px] text-5xl font-semibold text-[var(--highlight-text-color)] underline">
+      <h3 className="mb-[25px] text-4xl font-semibold text-[var(--highlight-text-color)] underline">
         {sectionTitle}
       </h3>
       <div className="flex flex-col gap-2">
