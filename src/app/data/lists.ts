@@ -80,7 +80,6 @@ export const projectsLinks: Record<string, string> = {
   abyss: "https://abyss-front-two.vercel.app/",
   vacuum: "https://cleared-front.vercel.app",
   shaka: "https://shaka-frontend.vercel.app/",
-  daf: "https://ultime-daf.vercel.app/",
   nihil: "https://nihil-frontend.vercel.app/",
   chefitup: "https://chef-it-up-tau.vercel.app/",
 };
