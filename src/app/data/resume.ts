@@ -49,10 +49,10 @@ const resumeData: ResumeData = {
     name: "Ange KOUAKOU",
     title: "Développeur Fullstack",
     details:
-      "Recherche un contrat d'apprentissage de **12 à 36 mois**(_4 jours entreprise – 1 jour en formation_) ou un stage de minimum 6 mois pour Septembre 2025.",
+      "Recherche un contrat d'apprentissage de **12 à 36 mois**(_4 jours entreprise – 1 jour en formation_) ou un stage de **minimum 6 mois** pour Septembre/Octobre 2025.",
   },
   pitch:
-    `Curieux, j'ai découvert la programmation dès le lycée puis j'ai confirmé mon intérêt pour ce métier à travers un bootcamp à la Wild et la formation Ada Tech School où je me forme actuellement au développement Full-stack. J'ai de l'expérience avec notamment React, Node.js et d'autres technologies de l'environnement TypeScript/JavaScript. Rigoureux et passionné, je souhaite contribuer activement à vos projets tout en poursuivant ma montée en compétences dans le cadre d’un contrat d’apprentissage.`.trim(),
+    `Curieux, j'ai découvert la programmation dès le lycée puis j'ai confirmé mon intérêt pour ce métier à travers un bootcamp à la Wild Code School et la formation Ada Tech School où je me forme actuellement au développement Full-stack. J'ai acquis de l'expérience sur React, Node.js et d'autres technologies de l'environnement TypeScript/JavaScript. Rigoureux avec un esprit d'équipe, je souhaite contribuer activement à vos projets tout en poursuivant ma montée en compétences dans le cadre d’un contrat d’apprentissage ou d'un stage.`.trim(),
   contact: { socials: socialsList },
   skills: {
     section_title: "Compétences",
