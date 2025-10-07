@@ -1,8 +1,8 @@
 // src\app\components\Header.tsx
 
-import ReactMarkdown from "react-markdown";
-import remarkGfm from "remark-gfm";
-import rehypeSanitize from "rehype-sanitize";
+// import ReactMarkdown from "react-markdown";
+// import remarkGfm from "remark-gfm";
+// import rehypeSanitize from "rehype-sanitize";
 import { SocialLink } from "@/app/data/lists";
 
 interface HeaderProps {
@@ -15,7 +15,7 @@ interface HeaderProps {
 export default function Header({
   name,
   title,
-  details,
+  // details,
   socials,
 }: Readonly<HeaderProps>) {
   return (
@@ -24,14 +24,14 @@ export default function Header({
         {name}
       </h1>
       <h2 className="mb-[25px] text-4xl font-medium">{title}</h2>
-      <div className="prose prose-sm mx-auto text-[var(--text-color)]">
+      {/* <div className="prose prose-sm mx-auto text-[var(--text-color)]">
         <ReactMarkdown
           remarkPlugins={[remarkGfm]}
           rehypePlugins={[rehypeSanitize]}
         >
           {details}
         </ReactMarkdown>
-      </div>
+      </div> */}
       <ul className="mt-16 grid grid-cols-3 justify-center gap-8">
         {socials.map((social) => (
           <li key={social.id} className="justify-self-center">

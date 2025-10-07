@@ -47,26 +47,26 @@ export interface ResumeData {
 const resumeData: ResumeData = {
   header: {
     name: "Ange KOUAKOU",
-    title: "Développeur Fullstack",
+    title: "Fullstack Developer",
     details:
-      "Recherche un contrat d'apprentissage de **12 à 36 mois**(_4 jours entreprise – 1 jour en formation_) ou un stage de **minimum 6 mois** pour Septembre/Octobre 2025.",
+      "Looking for a **12 to 36-month apprenticeship contract** (_4 days in the company – 1 day in school_) or a **minimum 6-month internship** starting from September/October 2025.",
   },
   pitch:
-    `Curieux, j'ai découvert la programmation dès le lycée puis j'ai confirmé mon intérêt pour ce métier à travers un bootcamp à la Wild Code School et la formation Ada Tech School où je me forme actuellement au développement Full-stack. J'ai acquis de l'expérience sur React, Node.js et d'autres technologies de l'environnement TypeScript/JavaScript. Rigoureux avec un esprit d'équipe, je souhaite contribuer activement à vos projets tout en poursuivant ma montée en compétences dans le cadre d’un contrat d’apprentissage ou d'un stage.`.trim(),
+    `I discovered programming in high school and confirmed my passion for it through bootcamp and trainings during the time I spent in France, where I’m studying Full-Stack development. I’ve gained experience with React, Node.js, and other technologies within the TypeScript/JavaScript ecosystem. And I just wanna learn more and get a degree`.trim(),
   contact: { socials: socialsList },
   skills: {
-    section_title: "Compétences",
-    hard_skills_title: "Compétences techniques",
+    section_title: "Skills",
+    hard_skills_title: "Technical Skills",
     hard_skills: hardSkills,
     softSkillsTitle: "Soft Skills",
     softSkills,
   },
   experiences: {
-    section_title: "Projets",
+    section_title: "Projects",
     list: experiencesList,
   },
   education: {
-    section_title: "Formations",
+    section_title: "Education",
     list: educationList,
   },
   hobbies: {
@@ -74,7 +74,7 @@ const resumeData: ResumeData = {
     list: hobbiesList,
   },
   miscellaneous: {
-    section_title: "Divers",
+    section_title: "Miscellaneous",
     list: miscellaneousList,
   },
 };
