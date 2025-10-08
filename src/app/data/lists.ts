@@ -10,34 +10,34 @@ export interface SocialLink {
 export const socialsList: SocialLink[] = [
   {
     link: "https://www.linkedin.com/in/ange-kouakou/",
-    text: "LinkedIn",
+    text: "https://www.linkedin.com/in/ange-kouakou/",
     id: "linkedin-link",
     icon: "pi pi-linkedin",
   },
   {
     link: "https://github.com/Ange230700",
-    text: "GitHub",
+    text: "https://github.com/Ange230700",
     id: "github-link",
     icon: "pi pi-github",
   },
   {
     link: "https://ultime-portfolio.vercel.app/",
-    text: "Portfolio",
+    text: "https://ultime-portfolio.vercel.app/",
     id: "portfolio-link",
     icon: "pi pi-globe",
   },
-  {
-    link: "mailto:kouakouangeericstephane@gmail.com",
-    text: "Email",
-    id: "mail-link",
-    icon: "pi pi-envelope",
-  },
-  {
-    link: "tel:+33759802343",
-    text: "+33 7 59 80 23 43",
-    id: "phone-link",
-    icon: "pi pi-phone",
-  },
+  // {
+  //   link: "mailto:kouakouangeericstephane@gmail.com",
+  //   text: "Email",
+  //   id: "mail-link",
+  //   icon: "pi pi-envelope",
+  // },
+  // {
+  //   link: "tel:+33759802343",
+  //   text: "+33 7 59 80 23 43",
+  //   id: "phone-link",
+  //   icon: "pi pi-phone",
+  // },
   // {
   //   link: "/",
   //   text: "Available across France",
@@ -70,9 +70,7 @@ export const softSkills: string[] = [
   "Teamwork",
   "Autonomy",
   "Adaptability",
-  "Rigor",
-  "Pedagogy",
-  "Agile/SCRUM",
+  "Meticulousness",
 ];
 
 export const projectsLinks: Record<string, string> = {
@@ -160,7 +158,7 @@ export const educationList: Education[] = [
   },
   {
     formation_id: 5,
-    formation_title: "Bachelor’s Degree in Computer Science",
+    formation_title: "Training in Computer Science",
     school: "Ynov Campus Nantes, France",
     formation_span: "09/2022 - 05/2023",
   },
@@ -199,7 +197,6 @@ export const educationList: Education[] = [
 export const hobbiesList: string[] = ["- NBA", "- Marvel and DC Comics lore"];
 
 export const miscellaneousList: string[] = [
-  "- Preparing for the RNCP Level 6 certification — Web & Mobile Application Developer",
   "- Docker",
   "- Hosting (Vercel, Render, AlwaysData)",
   "- CI/CD (GitHub Actions, Husky)",

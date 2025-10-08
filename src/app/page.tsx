@@ -32,6 +32,7 @@ export default function Home() {
         title={header.title}
         details={header.details}
         socials={contact.socials}
+        photoUrl={header.photoUrl}
       />
 
       <Pitch content={pitch} />

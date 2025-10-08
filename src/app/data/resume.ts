@@ -18,6 +18,7 @@ export interface ResumeHeader {
   name: string;
   title: string;
   details: string;
+  photoUrl?: string;
 }
 
 export interface ResumeSkills {
@@ -47,12 +48,13 @@ export interface ResumeData {
 const resumeData: ResumeData = {
   header: {
     name: "Ange KOUAKOU",
-    title: "Fullstack Developer",
+    title: "Fullstack web developer",
     details:
       "Looking for a **12 to 36-month apprenticeship contract** (_4 days in the company – 1 day in school_) or a **minimum 6-month internship** starting from September/October 2025.",
+    photoUrl: "/photo.jpg",
   },
   pitch:
-    `I discovered programming in high school and confirmed my passion for it through bootcamp and trainings during the time I spent in France, where I’m studying Full-Stack development. I’ve gained experience with React, Node.js, and other technologies within the TypeScript/JavaScript ecosystem. And I just wanna learn more and get a degree`.trim(),
+    `I discovered programming in high school and confirmed my interest for the web development through bootcamp and courses during the time I spent in France, where I studied Full-Stack web development. I’ve gained experience with React, Node.js, and other technologies within the TypeScript/JavaScript ecosystem. And I just wanna learn more and ultimately get a degree`.trim(),
   contact: { socials: socialsList },
   skills: {
     section_title: "Skills",
