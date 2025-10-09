@@ -100,7 +100,7 @@ export default function Skills({
               ))}
             </div>
           </div>
-          <p>Proficiency in English: </p>
+          <p>Ability in English: </p>
           <strong>(Reading, writing and speaking)</strong>
         </div>
       </div>
