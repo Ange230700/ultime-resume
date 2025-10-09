@@ -54,7 +54,7 @@ const resumeData: ResumeData = {
     photoUrl: "/photo.jpg",
   },
   pitch:
-    `I discovered programming in high school and confirmed my interest for the web development through bootcamp and courses during the time I spent in France, where I studied Full-Stack web development. I’ve gained experience with React, Node.js, and other technologies within the TypeScript/JavaScript ecosystem. And I just wanna learn more and ultimately get a degree`.trim(),
+    `I discovered programming in high school and confirmed my interest for the web development through bootcamp and courses during the time I spent in France, where I studied Full-Stack web development. I’ve gained experience with React, Node.js, and other technologies within the TypeScript/JavaScript ecosystem. And I just wanna learn more and ultimately get a degree, doing so while improving my english.`.trim(),
   contact: { socials: socialsList },
   skills: {
     section_title: "Skills",
