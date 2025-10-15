@@ -23,12 +23,14 @@ import {
   // FaSymfony,
   FaVuejs,
 } from "react-icons/fa";
+import { TbBrandReactNative } from "react-icons/tb";
 
 const iconMap: Record<string, React.ReactNode> = {
   TypeScript: <SiTypescript />,
   "Next.js": <RiNextjsFill />,
   JavaScript: <FaJs />,
   React: <FaReact />,
+  "React Native": <TbBrandReactNative />,
   NodeJS: <FaNodeJs />,
   PHP: <FaPhp />,
   // Symfony: <FaSymfony />,
@@ -100,8 +102,8 @@ export default function Skills({
               ))}
             </div>
           </div>
-          <p>Ability in English: </p>
-          <strong>(Reading, writing and speaking)</strong>
+          <p>Maîtrise de l&apos;anglais: </p>
+          <strong>(Lecture, rédaction et conversation)</strong>
         </div>
       </div>
     </section>
