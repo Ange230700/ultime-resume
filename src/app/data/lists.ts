@@ -55,6 +55,7 @@ export const hardSkills: HardSkill[] = [
   { label: "TypeScript", icon: "pi pi-code" },
   { label: "JavaScript", icon: "pi pi-code" },
   { label: "React", icon: "pi pi-code" },
+  { label: "React Native", icon: "pi pi-code" },
   { label: "Next.js", icon: "pi pi-code" },
   { label: "Angular", icon: "pi pi-code" },
   { label: "Vue", icon: "pi pi-code" },
@@ -67,10 +68,10 @@ export const hardSkills: HardSkill[] = [
 ];
 
 export const softSkills: string[] = [
-  "Teamwork",
-  "Autonomy",
-  "Adaptability",
-  "Meticulousness",
+  "Travail en équipe",
+  "Autonomie",
+  "Adaptabilité",
+  "Rigueur",
 ];
 
 export const projectsLinks: Record<string, string> = {
@@ -91,10 +92,10 @@ export interface Experience {
 export const experiencesList: Experience[] = [
   {
     experience_id: "streamia",
-    project_description: `Video streaming platform: _[Streamia](${projectsLinks.streamia})_`,
+    project_description: `Plateforme de streaming vidéo: _[Streamia](${projectsLinks.streamia})_`,
     tasks: [
       "- TypeScript, Next.js, PrimeReact, Prisma",
-      "- Media data handling",
+      "- Manipulation de données média",
     ],
   },
   {
@@ -102,12 +103,12 @@ export const experiencesList: Experience[] = [
     project_description: `Furniture sales platform: _[Abyss](${projectsLinks.abyss})_`,
     tasks: [
       "- TypeScript, Angular, PrimeNG, NestJS, Prisma",
-      "- API documentation with Swagger",
+      "- Documentation d’API avec Swagger",
     ],
   },
   {
     experience_id: "vacuum",
-    project_description: `Back-office for a waste collection association: _[Vacuum](${projectsLinks.vacuum})_`,
+    project_description: `Back-office pour une association de collectes de déchets: _[Vacuum](${projectsLinks.vacuum})_`,
     tasks: [
       "- TypeScript, Vue, PrimeVue, Express, Prisma",
       "- Clean architecture",
@@ -115,24 +116,27 @@ export const experiencesList: Experience[] = [
   },
   {
     experience_id: "shaka",
-    project_description: `List of surf spots around the world: _[Shaka](${projectsLinks.shaka})_`,
+    project_description: `Liste des spots de surf dans le monde: _[Shaka](${projectsLinks.shaka})_`,
     tasks: [
       "- TypeScript, React Native, Expo, NestJS, Prisma",
-      "- Mobile application development",
+      "- Développement d’une application mobile",
     ],
   },
   {
     experience_id: "nihil",
-    project_description: `Social network: _[Nihil](${projectsLinks.nihil})_`,
+    project_description: `Réseau social: _[Nihil](${projectsLinks.nihil})_`,
     tasks: [
       "- TypeScript, React, PrimeReact, Express, Prisma",
-      "- Docker microservices and Nx monorepo setup",
+      "- Microservices Docker et monorepo Nx",
     ],
   },
   {
     experience_id: "chefitup",
-    project_description: `Cooking recipe platform: _[Chef It Up](${projectsLinks.chefitup})_`,
-    tasks: ["- TypeScript, Nuxt.js, PrimeVue, Prisma", "- ORM implementation"],
+    project_description: `Plateforme de recettes de cuisine: _[Chef It Up](${projectsLinks.chefitup})_`,
+    tasks: [
+      "- TypeScript, Nuxt.js, PrimeVue, Prisma",
+      "- Utilisation d’un ORM",
+    ],
   },
 ];
 
@@ -146,61 +150,61 @@ export interface Education {
 export const educationList: Education[] = [
   {
     formation_id: 7,
-    formation_title: "Web and Mobile Developer Training",
-    school: "ADA Tech School, France",
+    formation_title: "Formation Développeur Web et Mobile",
+    school: "ADA Tech School Nantes, France",
     formation_span: "10/2024 - 06/2025",
   },
   {
     formation_id: 6,
-    formation_title: "Web Development Bootcamp",
-    school: "Wild Code School, France",
+    formation_title: "Bootcamp Développement Web",
+    school: "Wild Code School Nantes, France",
     formation_span: "10/2023 - 02/2024",
   },
   {
     formation_id: 5,
-    formation_title: "Training in Computer Science",
+    formation_title: "Formation en informatique",
     school: "Ynov Campus Nantes, France",
     formation_span: "09/2022 - 05/2023",
   },
   {
     formation_id: 4,
-    formation_title: "Integrated Computer Science Preparatory Program",
+    formation_title: "Prépa intégrée en informatique",
     school: "CESI Toulouse, France",
     formation_span: "09/2021 - 05/2022",
   },
   {
     formation_id: 3,
-    formation_title: "Embedded Electronics Training",
+    formation_title: "Formation en électronique embarquée",
     school: "CESI Toulouse, France",
     formation_span: "09/2020 - 05/2021",
   },
   {
     formation_id: 2,
-    formation_title: "Integrated Technological Preparatory Program",
+    formation_title: "Prépa technologique intégrée",
     school: "CESI Saint-Nazaire, France",
     formation_span: "09/2019 - 05/2020",
   },
   {
     formation_id: 1,
-    formation_title: "Scientific Preparatory Cycle",
+    formation_title: "Cycle préparatoire scientifique",
     school: "LFBP Abidjan, Côte d'Ivoire",
     formation_span: "09/2017 - 07/2019",
   },
   {
     formation_id: 0,
-    formation_title: "Scientific Baccalaureate",
+    formation_title: "Baccalauréat scientifique",
     school: "Côte d'Ivoire",
     formation_span: "2017",
   },
 ];
 
-export const hobbiesList: string[] = ["- NBA", "- Marvel and DC Comics lore"];
+export const hobbiesList: string[] = ["- NBA", "- Lore Marvel et DC Comics"];
 
 export const miscellaneousList: string[] = [
   "- Docker",
-  "- Hosting (Vercel, Render, AlwaysData)",
+  "- Hébergement (Vercel, Render, AlwaysData)",
   "- CI/CD (GitHub Actions, Husky)",
-  "- Project Planning (GitHub Projects, Jira)",
-  "- Mockups and Wireframing (Figma)",
-  "- Nx Monorepo",
+  "- Planification de projets (GitHub Projects, Jira)",
+  "- Maquettage et wireframing (Figma)",
+  "- Monorepo Nx",
 ];

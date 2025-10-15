@@ -48,27 +48,29 @@ export interface ResumeData {
 const resumeData: ResumeData = {
   header: {
     name: "Ange KOUAKOU",
-    title: "Fullstack web developer",
+    title: "Développeur web full-stack",
     details:
-      "Looking for a **12 to 36-month apprenticeship contract** (_4 days in the company – 1 day in school_) or a **minimum 6-month internship** starting from September/October 2025.",
+      // "Recherche un **contrat d’apprentissage de 12 à 36 mois** (_4 jours en entreprise – 1 jour en formation_) ou un **stage d’au moins 6 mois** à partir de septembre/octobre 2025.",
+      "Recherche un **stage de 6 à 12 mois**.",
     photoUrl: "/photo.jpg",
   },
   pitch:
-    `I discovered programming in high school and confirmed my interest for the web development through bootcamp and courses during the time I spent in France, where I studied Full-Stack web development. I’ve gained experience with React, Node.js, and other technologies within the TypeScript/JavaScript ecosystem. And I just wanna learn more and ultimately get a degree, doing so while improving my english.`.trim(),
+    // `J’ai découvert la programmation au lycée et j’ai confirmé mon intérêt pour le développement web grâce à un bootcamp et à des formations durant mon séjour en France, où j’ai étudié le développement web Full-Stack. J’ai acquis de l’expérience avec React, Node.js et d’autres technologies de l’écosystème TypeScript/JavaScript. Je souhaite continuer à apprendre et, à terme, obtenir un diplôme, tout en améliorant mon anglais.`.trim(),
+    `J’ai découvert la programmation au lycée et j’ai confirmé mon intérêt pour le développement web et mobile grâce à un bootcamp et à des formations, où j’ai étudié le développement web Full-Stack. J’ai acquis de l’expérience avec React, Node.js et d’autres technologies de l’écosystème TypeScript/JavaScript. Je souhaite continuer à apprendre, à gagner en expérience dans un cadre professionnel et, à terme, obtenir le titre RNCP en tant que concepteur et développeur d'applications web et mobile.`.trim(),
   contact: { socials: socialsList },
   skills: {
-    section_title: "Skills",
-    hard_skills_title: "Technical Skills",
+    section_title: "Compétences",
+    hard_skills_title: "Compétences techniques",
     hard_skills: hardSkills,
     softSkillsTitle: "Soft Skills",
     softSkills,
   },
   experiences: {
-    section_title: "Projects",
+    section_title: "Projets",
     list: experiencesList,
   },
   education: {
-    section_title: "Education",
+    section_title: "Formations",
     list: educationList,
   },
   hobbies: {
@@ -76,7 +78,7 @@ const resumeData: ResumeData = {
     list: hobbiesList,
   },
   miscellaneous: {
-    section_title: "Miscellaneous",
+    section_title: "Divers",
     list: miscellaneousList,
   },
 };
