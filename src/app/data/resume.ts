@@ -56,7 +56,7 @@ const resumeData: ResumeData = {
   },
   pitch:
     // `J’ai découvert la programmation au lycée et j’ai confirmé mon intérêt pour le développement web grâce à un bootcamp et à des formations durant mon séjour en France, où j’ai étudié le développement web Full-Stack. J’ai acquis de l’expérience avec React, Node.js et d’autres technologies de l’écosystème TypeScript/JavaScript. Je souhaite continuer à apprendre et, à terme, obtenir un diplôme, tout en améliorant mon anglais.`.trim(),
-    `J’ai découvert la programmation au lycée et j’ai confirmé mon intérêt pour le développement web et mobile grâce à un bootcamp et à des formations, où j’ai étudié le développement web Full-Stack. J’ai acquis de l’expérience avec React, Node.js et d’autres technologies de l’écosystème TypeScript/JavaScript. Je souhaite continuer à apprendre, à gagner en expérience dans un cadre professionnel et, à terme, obtenir le titre RNCP en tant que concepteur et développeur d'applications web et mobile.`.trim(),
+    `J’ai découvert la programmation au lycée. Mon intérêt pour le web et le mobile s’est renforcé lors d’un bootcamp et de plusieurs formations, où j’ai appris à créer des sites web et des applications mobiles. J’ai déjà utilisé React, Node.js et d’autres outils liés au monde TypeScript/JavaScript. Je souhaite continuer à apprendre et progresser dans mon travail.`.trim(),
   contact: { socials: socialsList },
   skills: {
     section_title: "Compétences",

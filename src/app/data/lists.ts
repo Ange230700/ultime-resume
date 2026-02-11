@@ -55,7 +55,7 @@ export const hardSkills: HardSkill[] = [
   { label: "TypeScript", icon: "pi pi-code" },
   { label: "JavaScript", icon: "pi pi-code" },
   { label: "React", icon: "pi pi-code" },
-  { label: "React Native", icon: "pi pi-code" },
+  // { label: "React Native", icon: "pi pi-code" },
   { label: "Next.js", icon: "pi pi-code" },
   { label: "Angular", icon: "pi pi-code" },
   { label: "Vue", icon: "pi pi-code" },
